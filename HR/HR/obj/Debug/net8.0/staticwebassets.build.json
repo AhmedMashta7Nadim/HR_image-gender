@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "jIs1NWoQHLCbyyWEY6JzzBmPJ+DZRdKTAmvtf6sFhFE=",
+  "Source": "HR",
+  "BasePath": "_content/HR",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HR\\wwwroot",
+      "Source": "HR",
+      "ContentRoot": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\wwwroot\\",
+      "BasePath": "_content/HR",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

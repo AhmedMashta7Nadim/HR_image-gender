@@ -1,0 +1,1573 @@
+2024-08-03 10:33:55.280 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-03 10:33:55.608 +03:00 [DBG] Hosting starting
+2024-08-03 10:33:56.413 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-03 10:33:56.415 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-03 10:33:56.417 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-03 10:33:56.419 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-03 10:33:56.421 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-03 10:33:56.424 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 10:33:56.427 +03:00 [INF] Hosting environment: Development
+2024-08-03 10:33:56.429 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-03 10:33:56.430 +03:00 [DBG] Hosting started
+2024-08-03 10:33:56.519 +03:00 [DBG] Connection id "0HN5JHQH0NLRG" received FIN.
+2024-08-03 10:33:56.519 +03:00 [DBG] Connection id "0HN5JHQH0NLRG" accepted.
+2024-08-03 10:33:56.648 +03:00 [DBG] Connection id "0HN5JHQH0NLRG" started.
+2024-08-03 10:33:57.373 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-03 10:33:57.865 +03:00 [DBG] Connection id "0HN5JHQH0NLRH" accepted.
+2024-08-03 10:33:58.063 +03:00 [DBG] Connection id "0HN5JHQH0NLRH" started.
+2024-08-03 10:33:58.065 +03:00 [DBG] Connection id "0HN5JHQH0NLRG" stopped.
+2024-08-03 10:33:58.106 +03:00 [DBG] Connection id "0HN5JHQH0NLRG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 10:33:58.223 +03:00 [DBG] Connection 0HN5JHQH0NLRH established using the following protocol: "Tls12"
+2024-08-03 10:33:58.347 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 10:33:58.703 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-03 10:33:58.814 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 10:33:58.818 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 10:33:59.328 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 10:33:59.350 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 10:33:59.547 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 10:33:59.550 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 10:33:59.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 1225.0065ms
+2024-08-03 10:33:59.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 10:33:59.625 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 10:33:59.692 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 70.0413ms
+2024-08-03 10:33:59.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 269.4006ms
+2024-08-03 10:33:59.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 10:34:00.004 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 10:34:00.009 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 10:34:00.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 916.6034ms
+2024-08-03 21:46:17.670 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-03 21:46:17.867 +03:00 [DBG] Hosting starting
+2024-08-03 21:46:18.525 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-03 21:46:18.528 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-03 21:46:18.529 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-03 21:46:18.531 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-03 21:46:18.532 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-03 21:46:18.534 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 21:46:18.536 +03:00 [INF] Hosting environment: Development
+2024-08-03 21:46:18.537 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-03 21:46:18.539 +03:00 [DBG] Hosting started
+2024-08-03 21:46:18.949 +03:00 [DBG] Connection id "0HN5JTI8048BU" accepted.
+2024-08-03 21:46:18.952 +03:00 [DBG] Connection id "0HN5JTI8048BU" started.
+2024-08-03 21:46:18.952 +03:00 [DBG] Connection id "0HN5JTI8048BU" received FIN.
+2024-08-03 21:46:18.981 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-03 21:46:19.772 +03:00 [DBG] Connection id "0HN5JTI8048BV" accepted.
+2024-08-03 21:46:20.164 +03:00 [DBG] Connection id "0HN5JTI8048BV" started.
+2024-08-03 21:46:20.167 +03:00 [DBG] Connection id "0HN5JTI8048BU" stopped.
+2024-08-03 21:46:20.190 +03:00 [DBG] Connection id "0HN5JTI8048BU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:46:20.313 +03:00 [DBG] Connection 0HN5JTI8048BV established using the following protocol: "Tls12"
+2024-08-03 21:46:20.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:46:21.073 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-03 21:46:21.149 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:46:21.152 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:46:21.416 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:46:21.420 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:46:21.549 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:46:21.578 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:46:21.583 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 895.9359ms
+2024-08-03 21:46:21.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:46:21.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:46:21.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 60.8381ms
+2024-08-03 21:46:21.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.9316ms
+2024-08-03 21:46:22.174 +03:00 [DBG] Connection id "0HN5JTI8048BV" received FIN.
+2024-08-03 21:46:22.203 +03:00 [DBG] Connection id "0HN5JTI8048BV" is closed. The last processed stream ID was 5.
+2024-08-03 21:46:22.207 +03:00 [DBG] Connection id "0HN5JTI8048BV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:46:22.204 +03:00 [DBG] The connection queue processing loop for 0HN5JTI8048BV completed.
+2024-08-03 21:46:22.220 +03:00 [DBG] Connection id "0HN5JTI8048BV" stopped.
+2024-08-03 21:46:23.055 +03:00 [DBG] Connection id "0HN5JTI8048C0" accepted.
+2024-08-03 21:46:23.073 +03:00 [DBG] Connection id "0HN5JTI8048C0" started.
+2024-08-03 21:46:23.079 +03:00 [DBG] Connection 0HN5JTI8048C0 established using the following protocol: "Tls12"
+2024-08-03 21:46:23.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:46:23.198 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:46:23.285 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:46:24.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 919.1803ms
+2024-08-03 21:46:31.219 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:46:31.269 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:46:31.284 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:46:31.288 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:31.300 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:46:31.307 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:31.389 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:46:31.412 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:46:31.416 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:46:31.420 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:46:31.434 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:46:31.437 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:46:31.445 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:46:32.157 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-03 21:46:32.473 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:46:33.822 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:46:33.827 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:46:33.830 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:46:33.967 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-03 21:46:33.988 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-03 21:46:33.996 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-03 21:46:33.999 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-03 21:46:34.001 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-03 21:46:34.003 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-03 21:46:34.006 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-03 21:46:34.011 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-03 21:46:34.550 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 3106.0486ms
+2024-08-03 21:46:34.553 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:34.556 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]'.
+ ---> System.AggregateException: One or more errors occurred. (Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Func`2 -> List`1
+System.Func`2[[HR_Models.Models.City, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1[[HR_Models.Models.City, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]] -> System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]])
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Func`2 -> List`1
+System.Func`2[[HR_Models.Models.City, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1[[HR_Models.Models.City, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]] -> System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method19(Closure, Object, List`1, ResolutionContext)
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at lambda_method20(Closure, Object)
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:46:34.638 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-03 21:46:34.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 3432.1374ms
+2024-08-03 21:46:37.214 +03:00 [DBG] Connection id "0HN5JTI8048C0" received FIN.
+2024-08-03 21:46:37.251 +03:00 [DBG] Connection id "0HN5JTI8048C0" is closed. The last processed stream ID was 3.
+2024-08-03 21:46:37.251 +03:00 [DBG] The connection queue processing loop for 0HN5JTI8048C0 completed.
+2024-08-03 21:46:37.254 +03:00 [DBG] Connection id "0HN5JTI8048C0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:46:37.278 +03:00 [DBG] Connection id "0HN5JTI8048C0" stopped.
+2024-08-03 21:46:50.629 +03:00 [DBG] Connection id "0HN5JTI8048C1" accepted.
+2024-08-03 21:46:50.645 +03:00 [DBG] Connection id "0HN5JTI8048C1" started.
+2024-08-03 21:46:50.655 +03:00 [DBG] Connection 0HN5JTI8048C1 established using the following protocol: "Tls12"
+2024-08-03 21:46:50.660 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:46:50.678 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:46:50.682 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:46:50.697 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:46:50.700 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:46:50.702 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:46:50.714 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:46:50.794 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 134.2941ms
+2024-08-03 21:46:50.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:46:50.807 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:46:51.268 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 467.2387ms
+2024-08-03 21:46:51.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 739.1383ms
+2024-08-03 21:46:51.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:46:51.796 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:46:51.830 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:46:51.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 267.3216ms
+2024-08-03 21:46:52.214 +03:00 [DBG] Connection id "0HN5JTI8048C1" received FIN.
+2024-08-03 21:46:52.216 +03:00 [DBG] Connection id "0HN5JTI8048C1" is closed. The last processed stream ID was 7.
+2024-08-03 21:46:52.216 +03:00 [DBG] The connection queue processing loop for 0HN5JTI8048C1 completed.
+2024-08-03 21:46:52.220 +03:00 [DBG] Connection id "0HN5JTI8048C1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:46:52.241 +03:00 [DBG] Connection id "0HN5JTI8048C1" stopped.
+2024-08-03 21:46:55.710 +03:00 [DBG] Connection id "0HN5JTI8048C2" accepted.
+2024-08-03 21:46:55.717 +03:00 [DBG] Connection id "0HN5JTI8048C2" started.
+2024-08-03 21:46:55.731 +03:00 [DBG] Connection 0HN5JTI8048C2 established using the following protocol: "Tls12"
+2024-08-03 21:46:55.741 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:46:55.748 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:46:55.750 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:46:55.753 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:55.754 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:46:55.755 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:55.769 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:46:55.772 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:46:55.778 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:46:55.781 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:46:55.785 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:46:55.786 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:46:55.789 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:46:55.797 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:46:55.867 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 78.4753ms
+2024-08-03 21:46:55.870 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:55.872 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: GenericArguments[0], 'T', on 'HR.Repositry.Serves.IRepositryUpdate`1[Z]' violates the constraint of type parameter 'Z'.
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at HR.Controllers.CityController.GetAllAsync()
+   at lambda_method24(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:46:55.901 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 161.6404ms
+2024-08-03 21:46:58.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:46:58.774 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:46:58.776 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:46:58.780 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:58.782 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:46:58.784 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:58.787 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:46:58.795 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:46:58.799 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:46:58.801 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:46:58.804 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:46:58.808 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:46:58.811 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:46:58.818 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:46:58.820 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 9.3522ms
+2024-08-03 21:46:58.824 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:46:58.826 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: GenericArguments[0], 'T', on 'HR.Repositry.Serves.IRepositryUpdate`1[Z]' violates the constraint of type parameter 'Z'.
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at HR.Controllers.CityController.GetAllAsync()
+   at lambda_method24(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:46:58.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 73.492ms
+2024-08-03 21:47:02.235 +03:00 [DBG] Connection id "0HN5JTI8048C2" received FIN.
+2024-08-03 21:47:02.237 +03:00 [DBG] Connection id "0HN5JTI8048C2" is closed. The last processed stream ID was 3.
+2024-08-03 21:47:02.237 +03:00 [DBG] The connection queue processing loop for 0HN5JTI8048C2 completed.
+2024-08-03 21:47:02.241 +03:00 [DBG] Connection id "0HN5JTI8048C2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:47:02.250 +03:00 [DBG] Connection id "0HN5JTI8048C2" stopped.
+2024-08-03 21:47:32.714 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-03 21:47:33.076 +03:00 [DBG] Hosting starting
+2024-08-03 21:47:36.574 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-03 21:47:36.580 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-03 21:47:36.584 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-03 21:47:36.586 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-03 21:47:36.588 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-03 21:47:36.591 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 21:47:36.593 +03:00 [INF] Hosting environment: Development
+2024-08-03 21:47:36.598 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-03 21:47:36.599 +03:00 [DBG] Connection id "0HN5JTIV4L0CT" accepted.
+2024-08-03 21:47:36.599 +03:00 [DBG] Connection id "0HN5JTIV4L0CU" accepted.
+2024-08-03 21:47:36.600 +03:00 [DBG] Hosting started
+2024-08-03 21:47:36.607 +03:00 [DBG] Connection id "0HN5JTIV4L0CT" started.
+2024-08-03 21:47:36.607 +03:00 [DBG] Connection id "0HN5JTIV4L0CU" started.
+2024-08-03 21:47:37.344 +03:00 [DBG] Connection id "0HN5JTIV4L0CV" accepted.
+2024-08-03 21:47:37.374 +03:00 [DBG] Connection id "0HN5JTIV4L0CV" started.
+2024-08-03 21:47:37.508 +03:00 [DBG] Connection 0HN5JTIV4L0CV established using the following protocol: "Tls12"
+2024-08-03 21:47:37.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:47:38.044 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-03 21:47:38.166 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:47:38.172 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:47:38.591 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:47:38.597 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:47:38.721 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:47:38.797 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:47:38.802 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:47:38.867 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:47:38.927 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 1240.6982ms
+2024-08-03 21:47:38.934 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 138.3135ms
+2024-08-03 21:47:39.060 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 258.4452ms
+2024-08-03 21:47:39.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:47:39.164 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:47:39.166 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:47:40.022 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 868.9138ms
+2024-08-03 21:47:44.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:47:44.658 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:47:44.674 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:47:44.679 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:47:44.693 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:47:44.699 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:47:44.797 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:47:44.812 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:47:44.815 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:47:44.818 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:47:44.827 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:47:44.829 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:47:44.838 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:47:45.240 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-03 21:47:45.881 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:47:52.778 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2024-08-03 21:47:52.778 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2024-08-03 21:47:52.785 +03:00 [DBG] Connection id "0HN5JTIV4L0CT" stopped.
+2024-08-03 21:47:52.785 +03:00 [DBG] Connection id "0HN5JTIV4L0CU" stopped.
+2024-08-03 21:47:52.788 +03:00 [DBG] Connection id "0HN5JTIV4L0CT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:47:52.788 +03:00 [DBG] Connection id "0HN5JTIV4L0CU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:47:54.344 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:47:54.348 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:47:54.350 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:47:55.396 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-03 21:47:56.315 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()'
+2024-08-03 21:48:00.926 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<City>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.city (string) Required, 1] }
+        SELECT c.id, c.city
+        FROM citys AS c) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        City entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            City instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(City);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: City.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.City").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (City)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.City")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]: 
+                        {
+                            return 
+                            {
+                                City instance;
+                                instance = new City();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<city>k__BackingField = dataReader.GetString(1);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(City)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-03 21:48:01.012 +03:00 [DBG] Creating DbConnection.
+2024-08-03 21:48:01.071 +03:00 [DBG] Created DbConnection. (59ms).
+2024-08-03 21:48:01.099 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:06.381 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:06.390 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-03 21:48:06.404 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2024-08-03 21:48:06.409 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (20ms).
+2024-08-03 21:48:06.426 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:48:06.500 +03:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:48:06.593 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:48:06.630 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:48:06.639 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:06.657 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 140ms reading results.
+2024-08-03 21:48:06.663 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:06.680 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (16ms).
+2024-08-03 21:48:11.982 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-03 21:48:12.024 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-03 21:48:12.029 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-03 21:48:12.032 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-03 21:48:12.037 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-03 21:48:12.041 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-03 21:48:12.048 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-03 21:48:12.871 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 28016.6197ms
+2024-08-03 21:48:12.892 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:48:12.898 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error getting value from 'Context' on 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary],System.Runtime.CompilerServices.IAsyncStateMachine]'.
+ ---> System.InvalidOperationException: Could not create getter for System.Threading.ExecutionContext& Context. ByRef return values are not supported.
+   at Newtonsoft.Json.Utilities.ReflectionDelegateFactory.CreateGet[T](MemberInfo memberInfo)
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:48:13.015 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-03 21:48:13.032 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:13.040 +03:00 [DBG] Disposed connection to database '' on server '' (7ms).
+2024-08-03 21:48:13.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 28407.99ms
+2024-08-03 21:48:17.348 +03:00 [DBG] Connection id "0HN5JTIV4L0CV" received FIN.
+2024-08-03 21:48:17.372 +03:00 [DBG] The connection queue processing loop for 0HN5JTIV4L0CV completed.
+2024-08-03 21:48:17.372 +03:00 [DBG] Connection id "0HN5JTIV4L0CV" is closed. The last processed stream ID was 9.
+2024-08-03 21:48:17.379 +03:00 [DBG] Connection id "0HN5JTIV4L0CV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:48:17.389 +03:00 [DBG] Connection id "0HN5JTIV4L0CV" stopped.
+2024-08-03 21:48:48.395 +03:00 [DBG] Connection id "0HN5JTIV4L0D0" accepted.
+2024-08-03 21:48:48.420 +03:00 [DBG] Connection id "0HN5JTIV4L0D0" started.
+2024-08-03 21:48:48.439 +03:00 [DBG] Connection 0HN5JTIV4L0D0 established using the following protocol: "Tls12"
+2024-08-03 21:48:48.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/api/Department - null null
+2024-08-03 21:48:48.479 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Department'
+2024-08-03 21:48:48.480 +03:00 [DBG] Endpoint 'HR.Controllers.DepartmentController.GetAll (HR)' with route pattern 'api/Department' is valid for the request path '/api/Department'
+2024-08-03 21:48:48.486 +03:00 [DBG] Request matched endpoint 'HR.Controllers.DepartmentController.GetAll (HR)'
+2024-08-03 21:48:48.487 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:48:48.489 +03:00 [INF] Executing endpoint 'HR.Controllers.DepartmentController.GetAll (HR)'
+2024-08-03 21:48:48.504 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.DepartmentSummary]]] GetAll() on controller HR.Controllers.DepartmentController (HR).
+2024-08-03 21:48:48.512 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:48:48.514 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:48:48.522 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:48:48.526 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:48:48.528 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:48:48.534 +03:00 [DBG] Executing controller factory for controller HR.Controllers.DepartmentController (HR)
+2024-08-03 21:48:48.539 +03:00 [DBG] Executed controller factory for controller HR.Controllers.DepartmentController (HR)
+2024-08-03 21:48:52.023 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-03 21:48:52.034 +03:00 [DBG] Compiling query expression: 
+'DbSet<Department>()'
+2024-08-03 21:48:52.087 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Department>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Department.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Department.IsActive (bool) Required, 1], [Property: Department.Name_Department (string) Required, 2] }
+        SELECT d.id, d.IsActive, d.Name_Department
+        FROM departments AS d) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Department entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Department instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Department);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Department.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.Department").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Department)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Department | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.Department")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Department | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.Department")]: 
+                        {
+                            return 
+                            {
+                                Department instance;
+                                instance = new Department();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<IsActive>k__BackingField = dataReader.GetBoolean(1);
+                                instance.<Name_Department>k__BackingField = dataReader.GetString(2);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Department | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.Department")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Department)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-03 21:48:52.167 +03:00 [DBG] Creating DbConnection.
+2024-08-03 21:48:52.170 +03:00 [DBG] Created DbConnection. (2ms).
+2024-08-03 21:48:52.172 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:52.177 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:52.179 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-03 21:48:52.181 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-08-03 21:48:52.184 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-08-03 21:48:52.186 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[id], [d].[IsActive], [d].[Name_Department]
+FROM [departments] AS [d]
+2024-08-03 21:48:52.213 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[id], [d].[IsActive], [d].[Name_Department]
+FROM [departments] AS [d]
+2024-08-03 21:48:52.229 +03:00 [DBG] Context 'HR_Context' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:48:52.249 +03:00 [DBG] Context 'HR_Context' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:48:52.252 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:52.254 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 36ms reading results.
+2024-08-03 21:48:52.256 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:52.259 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (2ms).
+2024-08-03 21:48:52.272 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-03 21:48:52.277 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-03 21:48:52.279 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-03 21:48:52.284 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-03 21:48:52.286 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-03 21:48:52.287 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-03 21:48:52.290 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.List`1[[HR_Models.Models.VM.DepartmentSummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-03 21:48:52.411 +03:00 [INF] Executed action HR.Controllers.DepartmentController.GetAll (HR) in 3875.5176ms
+2024-08-03 21:48:52.633 +03:00 [INF] Executed endpoint 'HR.Controllers.DepartmentController.GetAll (HR)'
+2024-08-03 21:48:52.640 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error getting value from 'Context' on 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.List`1[HR_Models.Models.VM.DepartmentSummary],System.Runtime.CompilerServices.IAsyncStateMachine]'.
+ ---> System.InvalidOperationException: Could not create getter for System.Threading.ExecutionContext& Context. ByRef return values are not supported.
+   at Newtonsoft.Json.Utilities.ReflectionDelegateFactory.CreateGet[T](MemberInfo memberInfo)
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:48:52.779 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-03 21:48:52.784 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:48:52.811 +03:00 [DBG] Disposed connection to database '' on server '' (27ms).
+2024-08-03 21:48:52.842 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/api/Department - 500 null text/plain; charset=utf-8 4394.5901ms
+2024-08-03 21:48:57.436 +03:00 [DBG] Connection id "0HN5JTIV4L0D0" received FIN.
+2024-08-03 21:48:59.671 +03:00 [DBG] Connection id "0HN5JTIV4L0D0" is closed. The last processed stream ID was 1.
+2024-08-03 21:48:59.672 +03:00 [DBG] The connection queue processing loop for 0HN5JTIV4L0D0 completed.
+2024-08-03 21:48:59.687 +03:00 [DBG] Connection id "0HN5JTIV4L0D0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:48:59.692 +03:00 [DBG] Connection id "0HN5JTIV4L0D0" stopped.
+2024-08-03 21:49:20.692 +03:00 [DBG] Connection id "0HN5JTIV4L0D1" accepted.
+2024-08-03 21:49:20.694 +03:00 [DBG] Connection id "0HN5JTIV4L0D1" started.
+2024-08-03 21:49:20.732 +03:00 [DBG] Connection 0HN5JTIV4L0D1 established using the following protocol: "Tls12"
+2024-08-03 21:49:20.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:49:20.770 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:49:20.807 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:49:20.844 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:49:20.852 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:49:20.857 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:49:20.858 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:49:20.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 123.917ms
+2024-08-03 21:49:21.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:49:21.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:49:21.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.3692ms
+2024-08-03 21:49:21.204 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 50.3459ms
+2024-08-03 21:49:22.449 +03:00 [DBG] Connection id "0HN5JTIV4L0D1" received FIN.
+2024-08-03 21:49:22.458 +03:00 [DBG] Connection id "0HN5JTIV4L0D1" is closed. The last processed stream ID was 5.
+2024-08-03 21:49:22.458 +03:00 [DBG] The connection queue processing loop for 0HN5JTIV4L0D1 completed.
+2024-08-03 21:49:22.473 +03:00 [DBG] Connection id "0HN5JTIV4L0D1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:49:22.483 +03:00 [DBG] Connection id "0HN5JTIV4L0D1" stopped.
+2024-08-03 21:49:23.266 +03:00 [DBG] Connection id "0HN5JTIV4L0D2" accepted.
+2024-08-03 21:49:23.268 +03:00 [DBG] Connection id "0HN5JTIV4L0D2" started.
+2024-08-03 21:49:23.278 +03:00 [DBG] Connection 0HN5JTIV4L0D2 established using the following protocol: "Tls12"
+2024-08-03 21:49:23.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:49:23.288 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:49:23.290 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:49:23.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.2483ms
+2024-08-03 21:49:27.455 +03:00 [DBG] Connection id "0HN5JTIV4L0D2" received FIN.
+2024-08-03 21:49:27.458 +03:00 [DBG] Connection id "0HN5JTIV4L0D2" is closed. The last processed stream ID was 1.
+2024-08-03 21:49:27.459 +03:00 [DBG] The connection queue processing loop for 0HN5JTIV4L0D2 completed.
+2024-08-03 21:49:27.464 +03:00 [DBG] Connection id "0HN5JTIV4L0D2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:49:27.470 +03:00 [DBG] Connection id "0HN5JTIV4L0D2" stopped.
+2024-08-03 21:49:31.384 +03:00 [DBG] Connection id "0HN5JTIV4L0D3" accepted.
+2024-08-03 21:49:31.408 +03:00 [DBG] Connection id "0HN5JTIV4L0D3" started.
+2024-08-03 21:49:31.423 +03:00 [DBG] Connection 0HN5JTIV4L0D3 established using the following protocol: "Tls12"
+2024-08-03 21:49:31.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:49:31.434 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:49:31.435 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:49:31.438 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:49:31.441 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:49:31.442 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:49:31.454 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:49:31.458 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:49:31.460 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:49:31.464 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:49:31.467 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:49:31.471 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:49:31.473 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:49:31.480 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:49:34.592 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-03 21:49:34.599 +03:00 [DBG] Creating DbConnection.
+2024-08-03 21:49:34.601 +03:00 [DBG] Created DbConnection. (1ms).
+2024-08-03 21:49:34.603 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:49:34.604 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:49:34.606 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-03 21:49:34.608 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-03 21:49:34.609 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-03 21:49:34.611 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:49:34.624 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:49:34.641 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:49:34.645 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:49:34.651 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:49:34.655 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 14ms reading results.
+2024-08-03 21:49:34.660 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:49:34.664 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-08-03 21:49:34.669 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-03 21:49:34.673 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-03 21:49:34.676 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-03 21:49:34.678 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-03 21:49:34.682 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-03 21:49:34.685 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-03 21:49:34.688 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-03 21:49:34.721 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 3247.9455ms
+2024-08-03 21:49:34.735 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:49:34.737 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-03 21:49:34.740 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:49:34.742 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-08-03 21:49:34.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 200 412 application/json; charset=utf-8 3316.6264ms
+2024-08-03 21:49:37.534 +03:00 [DBG] Connection id "0HN5JTIV4L0D3" received FIN.
+2024-08-03 21:49:37.707 +03:00 [DBG] Connection id "0HN5JTIV4L0D3" is closed. The last processed stream ID was 1.
+2024-08-03 21:49:37.707 +03:00 [DBG] The connection queue processing loop for 0HN5JTIV4L0D3 completed.
+2024-08-03 21:49:37.708 +03:00 [DBG] Connection id "0HN5JTIV4L0D3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:49:37.715 +03:00 [DBG] Connection id "0HN5JTIV4L0D3" stopped.
+2024-08-03 21:50:02.011 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-03 21:50:02.332 +03:00 [DBG] Hosting starting
+2024-08-03 21:50:02.601 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-03 21:50:02.603 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-03 21:50:02.604 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-03 21:50:02.605 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-03 21:50:02.607 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-03 21:50:02.610 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 21:50:02.612 +03:00 [INF] Hosting environment: Development
+2024-08-03 21:50:02.615 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-03 21:50:02.616 +03:00 [DBG] Hosting started
+2024-08-03 21:50:02.645 +03:00 [DBG] Connection id "0HN5JTKALEOF8" accepted.
+2024-08-03 21:50:02.649 +03:00 [DBG] Connection id "0HN5JTKALEOF8" started.
+2024-08-03 21:50:02.680 +03:00 [DBG] Connection id "0HN5JTKALEOF8" received FIN.
+2024-08-03 21:50:02.860 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-03 21:50:02.905 +03:00 [DBG] Connection id "0HN5JTKALEOF8" stopped.
+2024-08-03 21:50:02.917 +03:00 [DBG] Connection id "0HN5JTKALEOF8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:50:33.220 +03:00 [DBG] Connection id "0HN5JTKALEOF9" accepted.
+2024-08-03 21:50:33.393 +03:00 [DBG] Connection id "0HN5JTKALEOF9" started.
+2024-08-03 21:50:33.574 +03:00 [DBG] Connection 0HN5JTKALEOF9 established using the following protocol: "Tls12"
+2024-08-03 21:50:34.180 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:50:34.736 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-03 21:50:35.589 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:50:35.617 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:50:36.070 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:50:36.076 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:50:36.182 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:50:36.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:50:36.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:50:36.348 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:50:36.416 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 2244.8627ms
+2024-08-03 21:50:36.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 163.2112ms
+2024-08-03 21:50:36.613 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 316.8201ms
+2024-08-03 21:50:36.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:50:37.403 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:50:37.404 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:50:37.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1082.5247ms
+2024-08-03 21:50:43.202 +03:00 [DBG] Connection id "0HN5JTKALEOF9" received FIN.
+2024-08-03 21:50:43.257 +03:00 [DBG] The connection queue processing loop for 0HN5JTKALEOF9 completed.
+2024-08-03 21:50:43.262 +03:00 [DBG] Connection id "0HN5JTKALEOF9" is closed. The last processed stream ID was 7.
+2024-08-03 21:50:43.271 +03:00 [DBG] Connection id "0HN5JTKALEOF9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:50:43.292 +03:00 [DBG] Connection id "0HN5JTKALEOF9" stopped.
+2024-08-03 21:50:49.526 +03:00 [DBG] Connection id "0HN5JTKALEOFA" accepted.
+2024-08-03 21:50:49.663 +03:00 [DBG] Connection id "0HN5JTKALEOFA" started.
+2024-08-03 21:50:49.686 +03:00 [DBG] Connection 0HN5JTKALEOFA established using the following protocol: "Tls12"
+2024-08-03 21:50:49.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:50:49.702 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:50:49.711 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:50:49.715 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:50:49.722 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:50:49.729 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:50:49.995 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:50:50.168 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:50:50.177 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:50:50.181 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:50:50.184 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:50:50.186 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:50:50.197 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:50:50.836 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-03 21:50:51.274 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:50:53.739 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:50:53.793 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:50:53.802 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:50:54.166 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-03 21:50:54.561 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()'
+2024-08-03 21:50:55.349 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<City>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.city (string) Required, 1] }
+        SELECT c.id, c.city
+        FROM citys AS c) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        City entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            City instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(City);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: City.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.City").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (City)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.City")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]: 
+                        {
+                            return 
+                            {
+                                City instance;
+                                instance = new City();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<city>k__BackingField = dataReader.GetString(1);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(City)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-03 21:50:55.453 +03:00 [DBG] Creating DbConnection.
+2024-08-03 21:50:55.524 +03:00 [DBG] Created DbConnection. (64ms).
+2024-08-03 21:50:55.530 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:50:57.229 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:50:57.240 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-03 21:50:57.249 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (11ms).
+2024-08-03 21:50:57.254 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (17ms).
+2024-08-03 21:50:57.275 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:50:57.360 +03:00 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:50:57.494 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:50:57.544 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:50:57.557 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:50:57.608 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 202ms reading results.
+2024-08-03 21:50:57.767 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:50:57.787 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (20ms).
+2024-08-03 21:50:57.834 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-03 21:50:57.843 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-03 21:50:57.847 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-03 21:50:57.850 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-03 21:50:57.852 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-03 21:50:57.857 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-03 21:50:57.860 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-03 21:50:58.132 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 7930.8648ms
+2024-08-03 21:50:58.135 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:50:58.141 +03:00 [DBG] Connection id "0HN5JTKALEOFA" received FIN.
+2024-08-03 21:50:58.143 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-03 21:50:58.147 +03:00 [DBG] Connection id "0HN5JTKALEOFA" is closed. The last processed stream ID was 1.
+2024-08-03 21:50:58.158 +03:00 [DBG] Connection id "0HN5JTKALEOFA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:50:58.173 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:50:58.183 +03:00 [DBG] Disposed connection to database '' on server '' (12ms).
+2024-08-03 21:50:58.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 200 410 application/json; charset=utf-8 8524.8879ms
+2024-08-03 21:50:58.313 +03:00 [DBG] The connection queue processing loop for 0HN5JTKALEOFA completed.
+2024-08-03 21:50:58.315 +03:00 [DBG] Connection id "0HN5JTKALEOFA" stopped.
+2024-08-03 21:51:15.890 +03:00 [DBG] Connection id "0HN5JTKALEOFB" accepted.
+2024-08-03 21:51:15.898 +03:00 [DBG] Connection id "0HN5JTKALEOFB" started.
+2024-08-03 21:51:15.912 +03:00 [DBG] Connection 0HN5JTKALEOFB established using the following protocol: "Tls12"
+2024-08-03 21:51:15.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:51:15.928 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:51:15.930 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:51:15.948 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:51:15.949 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:51:15.952 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:51:15.957 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:51:15.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 47.2471ms
+2024-08-03 21:51:16.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:51:16.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:51:16.066 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 34.1331ms
+2024-08-03 21:51:16.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.9731ms
+2024-08-03 21:51:16.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:51:16.306 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:51:16.307 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:51:16.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.6177ms
+2024-08-03 21:51:18.225 +03:00 [DBG] Connection id "0HN5JTKALEOFB" received FIN.
+2024-08-03 21:51:18.230 +03:00 [DBG] Connection id "0HN5JTKALEOFB" is closed. The last processed stream ID was 7.
+2024-08-03 21:51:18.231 +03:00 [DBG] The connection queue processing loop for 0HN5JTKALEOFB completed.
+2024-08-03 21:51:18.234 +03:00 [DBG] Connection id "0HN5JTKALEOFB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:51:18.248 +03:00 [DBG] Connection id "0HN5JTKALEOFB" stopped.
+2024-08-03 21:51:19.233 +03:00 [DBG] Connection id "0HN5JTKALEOFC" accepted.
+2024-08-03 21:51:19.245 +03:00 [DBG] Connection id "0HN5JTKALEOFC" started.
+2024-08-03 21:51:19.249 +03:00 [DBG] Connection 0HN5JTKALEOFC established using the following protocol: "Tls12"
+2024-08-03 21:51:19.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:51:19.258 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:51:19.259 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:51:19.261 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:51:19.263 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:51:19.264 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:51:19.274 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:51:19.277 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:51:19.280 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:51:19.282 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:51:19.285 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:51:19.290 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:51:19.293 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:51:19.297 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:51:19.328 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 35.0384ms
+2024-08-03 21:51:19.347 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:51:19.351 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: GenericArguments[0], 'T', on 'HR.Repositry.Serves.IRepositryUpdate`1[Z]' violates the constraint of type parameter 'Z'.
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at HR.Controllers.CityController.GetAllAsync()
+   at lambda_method57(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:51:19.385 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 134.1563ms
+2024-08-03 21:51:28.251 +03:00 [DBG] Connection id "0HN5JTKALEOFC" received FIN.
+2024-08-03 21:51:28.331 +03:00 [DBG] Connection id "0HN5JTKALEOFC" is closed. The last processed stream ID was 1.
+2024-08-03 21:51:28.331 +03:00 [DBG] The connection queue processing loop for 0HN5JTKALEOFC completed.
+2024-08-03 21:51:28.776 +03:00 [DBG] Connection id "0HN5JTKALEOFC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:51:28.781 +03:00 [DBG] Connection id "0HN5JTKALEOFC" stopped.
+2024-08-03 21:53:47.390 +03:00 [DBG] Connection id "0HN5JTKALEOFD" accepted.
+2024-08-03 21:53:47.400 +03:00 [DBG] Connection id "0HN5JTKALEOFD" started.
+2024-08-03 21:53:47.403 +03:00 [DBG] Connection 0HN5JTKALEOFD established using the following protocol: "Tls12"
+2024-08-03 21:53:47.406 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:53:47.432 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:53:47.433 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:53:47.466 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:53:47.476 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:53:47.479 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:53:47.480 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:53:47.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 75.9028ms
+2024-08-03 21:53:47.581 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:53:47.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:53:47.591 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 8.2258ms
+2024-08-03 21:53:47.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.9626ms
+2024-08-03 21:53:48.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:53:48.107 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:53:48.158 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:53:49.028 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 968.4087ms
+2024-08-03 21:53:53.434 +03:00 [DBG] Connection id "0HN5JTKALEOFD" received FIN.
+2024-08-03 21:53:53.438 +03:00 [DBG] Connection id "0HN5JTKALEOFD" is closed. The last processed stream ID was 7.
+2024-08-03 21:53:53.439 +03:00 [DBG] The connection queue processing loop for 0HN5JTKALEOFD completed.
+2024-08-03 21:53:53.441 +03:00 [DBG] Connection id "0HN5JTKALEOFD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:53:53.450 +03:00 [DBG] Connection id "0HN5JTKALEOFD" stopped.
+2024-08-03 21:53:53.751 +03:00 [DBG] Connection id "0HN5JTKALEOFE" accepted.
+2024-08-03 21:53:53.754 +03:00 [DBG] Connection id "0HN5JTKALEOFE" started.
+2024-08-03 21:53:53.757 +03:00 [DBG] Connection 0HN5JTKALEOFE established using the following protocol: "Tls12"
+2024-08-03 21:53:53.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:53:53.765 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:53:53.767 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:53:53.772 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:53:53.774 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:53:53.780 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:53:53.791 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:53:53.798 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:53:53.801 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:53:53.803 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:53:53.818 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:53:53.821 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:53:53.824 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:53:53.847 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:53:53.852 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 28.5428ms
+2024-08-03 21:53:53.856 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:53:53.862 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: GenericArguments[0], 'T', on 'HR.Repositry.Serves.IRepositryUpdate`1[Z]' violates the constraint of type parameter 'Z'.
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at HR.Controllers.CityController.GetAllAsync()
+   at lambda_method65(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:53:53.913 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 151.7022ms
+2024-08-03 21:53:57.365 +03:00 [DBG] Connection id "0HN5JTKALEOFE" received FIN.
+2024-08-03 21:53:57.369 +03:00 [DBG] Connection id "0HN5JTKALEOFE" is closed. The last processed stream ID was 1.
+2024-08-03 21:53:57.370 +03:00 [DBG] The connection queue processing loop for 0HN5JTKALEOFE completed.
+2024-08-03 21:53:57.371 +03:00 [DBG] Connection id "0HN5JTKALEOFE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:53:57.389 +03:00 [DBG] Connection id "0HN5JTKALEOFE" stopped.
+2024-08-03 21:54:06.816 +03:00 [DBG] Connection id "0HN5JTKALEOFF" accepted.
+2024-08-03 21:54:06.817 +03:00 [DBG] Connection id "0HN5JTKALEOFF" received FIN.
+2024-08-03 21:54:06.828 +03:00 [DBG] Connection id "0HN5JTKALEOFF" started.
+2024-08-03 21:54:06.840 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-03 21:54:06.850 +03:00 [DBG] Connection id "0HN5JTKALEOFF" stopped.
+2024-08-03 21:54:06.851 +03:00 [DBG] Connection id "0HN5JTKALEOFF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:54:07.411 +03:00 [DBG] Connection id "0HN5JTKALEOFG" accepted.
+2024-08-03 21:54:08.205 +03:00 [DBG] Connection id "0HN5JTKALEOFG" started.
+2024-08-03 21:54:08.242 +03:00 [DBG] Connection 0HN5JTKALEOFG established using the following protocol: "Tls12"
+2024-08-03 21:54:08.267 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:54:08.276 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:54:08.668 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:54:08.764 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:54:08.772 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:54:08.783 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:54:08.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:54:08.995 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:54:09.546 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:54:09.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 577.7135ms
+2024-08-03 21:54:09.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 1347.7071ms
+2024-08-03 21:54:09.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 651.1292ms
+2024-08-03 21:54:10.300 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:54:10.873 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:54:10.877 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:54:10.929 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 629.2599ms
+2024-08-03 21:54:14.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:54:14.537 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:54:14.539 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:54:14.549 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:54:14.551 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:54:14.553 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:54:14.555 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:54:14.565 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:54:14.569 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:54:14.576 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:54:14.602 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:54:14.606 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:54:14.622 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:54:14.636 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:54:14.667 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 44.9887ms
+2024-08-03 21:54:14.672 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:54:14.686 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: GenericArguments[0], 'T', on 'HR.Repositry.Serves.IRepositryUpdate`1[Z]' violates the constraint of type parameter 'Z'.
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at HR.Repositry.RepositryAllModels`2.GetAll()
+   at HR.Controllers.CityController.GetAllAsync()
+   at lambda_method65(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:54:14.735 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 220.3792ms
+2024-08-03 21:54:18.378 +03:00 [DBG] Connection id "0HN5JTKALEOFG" received FIN.
+2024-08-03 21:54:18.431 +03:00 [DBG] Connection id "0HN5JTKALEOFG" is closed. The last processed stream ID was 9.
+2024-08-03 21:54:18.431 +03:00 [DBG] The connection queue processing loop for 0HN5JTKALEOFG completed.
+2024-08-03 21:54:18.447 +03:00 [DBG] Connection id "0HN5JTKALEOFG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:54:18.466 +03:00 [DBG] Connection id "0HN5JTKALEOFG" stopped.
+2024-08-03 21:54:28.391 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-03 21:54:28.864 +03:00 [DBG] Hosting starting
+2024-08-03 21:54:29.246 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-03 21:54:29.252 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-03 21:54:29.257 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-03 21:54:29.260 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-03 21:54:29.262 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-03 21:54:29.265 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 21:54:29.271 +03:00 [INF] Hosting environment: Development
+2024-08-03 21:54:29.276 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-03 21:54:29.281 +03:00 [DBG] Hosting started
+2024-08-03 21:54:29.627 +03:00 [DBG] Connection id "0HN5JTMQ7JFTN" received FIN.
+2024-08-03 21:54:29.661 +03:00 [DBG] Connection id "0HN5JTMQ7JFTN" accepted.
+2024-08-03 21:54:29.664 +03:00 [DBG] Connection id "0HN5JTMQ7JFTN" started.
+2024-08-03 21:54:29.691 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-03 21:54:29.730 +03:00 [DBG] Connection id "0HN5JTMQ7JFTN" stopped.
+2024-08-03 21:54:29.745 +03:00 [DBG] Connection id "0HN5JTMQ7JFTN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:54:52.416 +03:00 [DBG] Connection id "0HN5JTMQ7JFTO" received FIN.
+2024-08-03 21:54:52.419 +03:00 [DBG] Connection id "0HN5JTMQ7JFTO" accepted.
+2024-08-03 21:54:52.425 +03:00 [DBG] Connection id "0HN5JTMQ7JFTO" started.
+2024-08-03 21:54:52.427 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-03 21:54:52.432 +03:00 [DBG] Connection id "0HN5JTMQ7JFTO" stopped.
+2024-08-03 21:54:52.434 +03:00 [DBG] Connection id "0HN5JTMQ7JFTO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:54:52.906 +03:00 [DBG] Connection id "0HN5JTMQ7JFTP" accepted.
+2024-08-03 21:54:53.101 +03:00 [DBG] Connection id "0HN5JTMQ7JFTP" started.
+2024-08-03 21:54:53.169 +03:00 [DBG] Connection 0HN5JTMQ7JFTP established using the following protocol: "Tls12"
+2024-08-03 21:54:53.240 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:54:53.376 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-03 21:54:53.425 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:54:53.430 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:54:53.692 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:54:53.700 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:54:53.778 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:54:53.801 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:54:53.868 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:54:53.875 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:54:53.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 656.209ms
+2024-08-03 21:54:53.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 97.8636ms
+2024-08-03 21:54:54.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 194.9695ms
+2024-08-03 21:54:54.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:54:54.233 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:54:54.236 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:54:54.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 555.1695ms
+2024-08-03 21:54:59.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:54:59.092 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:54:59.105 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:54:59.110 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:54:59.126 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:54:59.134 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:54:59.200 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:54:59.207 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:54:59.211 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:54:59.213 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:54:59.218 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:54:59.224 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:54:59.230 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:54:59.501 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-03 21:54:59.891 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:55:02.417 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:55:02.421 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:55:02.425 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:55:03.227 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-03 21:55:03.394 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()'
+2024-08-03 21:55:04.414 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<City>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.city (string) Required, 1] }
+        SELECT c.id, c.city
+        FROM citys AS c) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        City entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            City instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(City);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: City.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.City").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (City)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.City")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]: 
+                        {
+                            return 
+                            {
+                                City instance;
+                                instance = new City();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<city>k__BackingField = dataReader.GetString(1);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(City)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-03 21:55:04.540 +03:00 [DBG] Creating DbConnection.
+2024-08-03 21:55:04.643 +03:00 [DBG] Created DbConnection. (101ms).
+2024-08-03 21:55:04.656 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:55:05.802 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:55:05.822 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-03 21:55:05.842 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (14ms).
+2024-08-03 21:55:05.849 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (29ms).
+2024-08-03 21:55:05.865 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:55:05.997 +03:00 [INF] Executed DbCommand (127ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:55:06.135 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:55:06.195 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:55:06.207 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:55:06.229 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 207ms reading results.
+2024-08-03 21:55:06.236 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:55:06.273 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (32ms).
+2024-08-03 21:55:06.326 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-03 21:55:06.332 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-03 21:55:06.336 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-03 21:55:06.344 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-03 21:55:06.345 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-03 21:55:06.349 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-03 21:55:06.351 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-03 21:55:06.601 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 7367.3333ms
+2024-08-03 21:55:06.607 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:55:06.648 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-03 21:55:06.655 +03:00 [DBG] Connection id "0HN5JTMQ7JFTP" received FIN.
+2024-08-03 21:55:06.725 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:55:06.733 +03:00 [DBG] Connection id "0HN5JTMQ7JFTP" is closed. The last processed stream ID was 9.
+2024-08-03 21:55:06.772 +03:00 [DBG] Disposed connection to database '' on server '' (45ms).
+2024-08-03 21:55:06.774 +03:00 [DBG] Connection id "0HN5JTMQ7JFTP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:55:06.776 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 200 410 application/json; charset=utf-8 7713.4957ms
+2024-08-03 21:55:06.790 +03:00 [DBG] The connection queue processing loop for 0HN5JTMQ7JFTP completed.
+2024-08-03 21:55:06.794 +03:00 [DBG] Connection id "0HN5JTMQ7JFTP" stopped.
+2024-08-03 21:56:29.594 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-03 21:56:29.962 +03:00 [DBG] Hosting starting
+2024-08-03 21:56:30.490 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-03 21:56:30.511 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-03 21:56:30.516 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-03 21:56:30.518 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-03 21:56:30.523 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-03 21:56:30.528 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 21:56:30.541 +03:00 [INF] Hosting environment: Development
+2024-08-03 21:56:30.560 +03:00 [DBG] Connection id "0HN5JTNU8T2OR" accepted.
+2024-08-03 21:56:30.585 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-03 21:56:30.615 +03:00 [DBG] Connection id "0HN5JTNU8T2OR" received FIN.
+2024-08-03 21:56:30.644 +03:00 [DBG] Connection id "0HN5JTNU8T2OR" started.
+2024-08-03 21:56:30.646 +03:00 [DBG] Hosting started
+2024-08-03 21:56:30.690 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-03 21:56:30.750 +03:00 [DBG] Connection id "0HN5JTNU8T2OR" stopped.
+2024-08-03 21:56:30.783 +03:00 [DBG] Connection id "0HN5JTNU8T2OR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:56:31.386 +03:00 [DBG] Connection id "0HN5JTNU8T2OS" accepted.
+2024-08-03 21:56:31.560 +03:00 [DBG] Connection id "0HN5JTNU8T2OS" started.
+2024-08-03 21:56:31.647 +03:00 [DBG] Connection 0HN5JTNU8T2OS established using the following protocol: "Tls12"
+2024-08-03 21:56:31.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:56:31.900 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-03 21:56:31.978 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:56:31.988 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:56:32.306 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:56:32.310 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:56:32.357 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:56:32.362 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:56:32.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 636.4495ms
+2024-08-03 21:56:32.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:56:32.527 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 28.7506ms
+2024-08-03 21:56:32.733 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:56:32.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.0164ms
+2024-08-03 21:56:34.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:56:34.050 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:56:34.052 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:56:34.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 597.8093ms
+2024-08-03 21:56:37.584 +03:00 [DBG] Connection id "0HN5JTNU8T2OS" received FIN.
+2024-08-03 21:56:37.590 +03:00 [DBG] The connection queue processing loop for 0HN5JTNU8T2OS completed.
+2024-08-03 21:56:37.595 +03:00 [DBG] Connection id "0HN5JTNU8T2OS" is closed. The last processed stream ID was 7.
+2024-08-03 21:56:37.599 +03:00 [DBG] Connection id "0HN5JTNU8T2OS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:56:37.613 +03:00 [DBG] Connection id "0HN5JTNU8T2OS" stopped.
+2024-08-03 21:56:55.874 +03:00 [DBG] Connection id "0HN5JTNU8T2OT" accepted.
+2024-08-03 21:56:55.881 +03:00 [DBG] Connection id "0HN5JTNU8T2OT" started.
+2024-08-03 21:56:55.890 +03:00 [DBG] Connection 0HN5JTNU8T2OT established using the following protocol: "Tls12"
+2024-08-03 21:56:55.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-03 21:56:55.910 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-03 21:56:55.922 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-03 21:56:55.925 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:56:55.934 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-03 21:56:55.937 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:56:55.984 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-03 21:56:55.988 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-03 21:56:55.991 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-03 21:56:55.993 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-03 21:56:55.999 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-03 21:56:56.001 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-03 21:56:56.006 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:56:56.180 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-03 21:56:56.507 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-03 21:56:57.834 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:56:57.837 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:56:57.839 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-03 21:56:57.965 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-03 21:56:58.025 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()'
+2024-08-03 21:56:58.358 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<City>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.city (string) Required, 1] }
+        SELECT c.id, c.city
+        FROM citys AS c) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        City entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            City instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(City);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: City.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.City").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (City)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.City")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]: 
+                        {
+                            return 
+                            {
+                                City instance;
+                                instance = new City();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<city>k__BackingField = dataReader.GetString(1);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(City)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-03 21:56:58.413 +03:00 [DBG] Creating DbConnection.
+2024-08-03 21:56:58.445 +03:00 [DBG] Created DbConnection. (34ms).
+2024-08-03 21:56:58.451 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:56:58.643 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-03 21:56:58.655 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-03 21:56:58.659 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-03 21:56:58.661 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-03 21:56:58.664 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-03 21:56:58.666 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-03 21:56:58.669 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[HR.Repositry.RepositryAllModels`2+<GetAll>d__6[[HR_Models.Models.City, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], HR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-03 21:56:58.900 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:56:58.906 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-03 21:56:58.912 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2024-08-03 21:56:58.916 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (10ms).
+2024-08-03 21:56:58.927 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:56:58.992 +03:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-03 21:56:59.048 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 3037.5859ms
+2024-08-03 21:56:59.053 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-03 21:56:59.058 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error getting value from 'Context' on 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary],HR.Repositry.RepositryAllModels`2+<GetAll>d__6[HR_Models.Models.City,HR_Models.Models.VM.CitySummary]]'.
+ ---> System.InvalidOperationException: Could not create getter for System.Threading.ExecutionContext& Context. ByRef return values are not supported.
+   at Newtonsoft.Json.Utilities.ReflectionDelegateFactory.CreateGet[T](MemberInfo memberInfo)
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-03 21:56:59.065 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-03 21:56:59.093 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-03 21:56:59.117 +03:00 [DBG] A query was canceled for context type 'HR.Data.HR_Context'.
+2024-08-03 21:56:59.121 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-03 21:56:59.143 +03:00 [DBG] Closing data reader to '' on server ''.
+2024-08-03 21:56:59.147 +03:00 [DBG] Disposed connection to database '' on server '' (18ms).
+2024-08-03 21:56:59.150 +03:00 [DBG] A data reader for '' on server '' is being disposed after spending 151ms reading results.
+2024-08-03 21:56:59.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 500 null text/plain; charset=utf-8 3257.3005ms
+2024-08-03 21:57:37.674 +03:00 [DBG] Connection id "0HN5JTNU8T2OT" received FIN.
+2024-08-03 21:57:37.677 +03:00 [DBG] Connection id "0HN5JTNU8T2OT" is closed. The last processed stream ID was 1.
+2024-08-03 21:57:37.677 +03:00 [DBG] The connection queue processing loop for 0HN5JTNU8T2OT completed.
+2024-08-03 21:57:37.683 +03:00 [DBG] Connection id "0HN5JTNU8T2OT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:57:37.689 +03:00 [DBG] Connection id "0HN5JTNU8T2OT" stopped.
+2024-08-03 21:57:41.863 +03:00 [DBG] Connection id "0HN5JTNU8T2OU" accepted.
+2024-08-03 21:57:41.872 +03:00 [DBG] Connection id "0HN5JTNU8T2OU" started.
+2024-08-03 21:57:41.877 +03:00 [DBG] Connection 0HN5JTNU8T2OU established using the following protocol: "Tls12"
+2024-08-03 21:57:41.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-03 21:57:41.915 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-03 21:57:41.919 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:57:41.956 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-03 21:57:41.971 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-03 21:57:41.979 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-03 21:57:41.995 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-03 21:57:41.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 115.9016ms
+2024-08-03 21:57:42.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:57:42.119 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-03 21:57:42.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 15.0162ms
+2024-08-03 21:57:42.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.8146ms
+2024-08-03 21:57:43.131 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-03 21:57:43.418 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-03 21:57:43.420 +03:00 [DBG] Request did not match any endpoints
+2024-08-03 21:57:43.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 492.8006ms
+2024-08-03 21:57:45.095 +03:00 [DBG] Connection id "0HN5JTNU8T2OU" received FIN.
+2024-08-03 21:57:45.204 +03:00 [DBG] Connection id "0HN5JTNU8T2OU" is closed. The last processed stream ID was 7.
+2024-08-03 21:57:45.204 +03:00 [DBG] The connection queue processing loop for 0HN5JTNU8T2OU completed.
+2024-08-03 21:57:45.220 +03:00 [DBG] Connection id "0HN5JTNU8T2OU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-03 21:57:45.453 +03:00 [DBG] Connection id "0HN5JTNU8T2OU" stopped.

@@ -1,0 +1,1574 @@
+2024-08-06 08:36:11.675 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-06 08:36:13.234 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:13.236 +03:00 [WRN] No store type was specified for the decimal property 'Total_Balance' on entity type 'Leave_Balances'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:13.237 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:13.237 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:13.410 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:36:14.600 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:36:41.844 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-06 08:36:42.666 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:42.668 +03:00 [WRN] No store type was specified for the decimal property 'Total_Balance' on entity type 'Leave_Balances'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:42.668 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:42.668 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:36:42.773 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:36:42.798 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:36:42.865 +03:00 [DBG] Created DbConnection. (65ms).
+2024-08-06 08:36:42.868 +03:00 [DBG] Migrating using database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:42.876 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:44.998 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.007 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:36:45.016 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2024-08-06 08:36:45.019 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (16ms).
+2024-08-06 08:36:45.028 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:36:45.071 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:36:45.074 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.088 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (7ms).
+2024-08-06 08:36:45.091 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:36:45.092 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:36:45.092 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:36:45.092 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.093 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.094 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:36:45.118 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:36:45.118 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.119 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:36:45.120 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.120 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.121 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:36:45.121 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:36:45.121 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:36:45.121 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:36:45.123 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:36:45.123 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.123 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:36:45.124 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:36:45.124 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:36:45.124 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:36:45.124 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.124 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.124 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:36:45.125 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:36:45.125 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.125 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:36:45.149 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.150 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.150 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:36:45.150 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:36:45.150 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:36:45.151 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:36:45.156 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:36:45.159 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.161 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 3ms reading results.
+2024-08-06 08:36:45.162 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.162 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:36:45.180 +03:00 [INF] Applying migration '20240806053614_Functional-Role'.
+2024-08-06 08:36:45.362 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.362 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.365 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-08-06 08:36:45.374 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-08-06 08:36:45.375 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:36:45.375 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:36:45.376 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-08-06 08:36:45.376 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:36:45.463 +03:00 [ERR] Failed executing DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:36:45.465 +03:00 [DBG] Disposing transaction.
+2024-08-06 08:36:45.466 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.466 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:36:45.469 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:36:45.472 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:36:45.473 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:38:11.954 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-06 08:38:12.776 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:38:12.778 +03:00 [WRN] No store type was specified for the decimal property 'Total_Balance' on entity type 'Leave_Balances'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:38:12.779 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:38:12.779 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:38:12.943 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:38:12.978 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:38:13.074 +03:00 [DBG] Created DbConnection. (92ms).
+2024-08-06 08:38:13.078 +03:00 [DBG] Migrating using database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.092 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.383 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.393 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:38:13.400 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2024-08-06 08:38:13.402 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2024-08-06 08:38:13.411 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:38:13.446 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:38:13.449 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.458 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-08-06 08:38:13.463 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:38:13.463 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:38:13.463 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:38:13.463 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.464 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.465 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:38:13.484 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:38:13.484 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.484 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:38:13.486 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.486 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.486 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:38:13.487 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:38:13.487 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:38:13.487 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:38:13.489 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:38:13.489 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.489 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:38:13.490 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:38:13.490 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:38:13.490 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:38:13.490 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.490 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.490 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:38:13.491 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:38:13.491 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.492 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:38:13.507 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.508 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.508 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:38:13.508 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:38:13.508 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:38:13.509 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:38:13.521 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:38:13.526 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.528 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 4ms reading results.
+2024-08-06 08:38:13.529 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.529 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:38:13.552 +03:00 [INF] Applying migration '20240806053614_Functional-Role'.
+2024-08-06 08:38:13.779 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.780 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.782 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-08-06 08:38:13.790 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-08-06 08:38:13.791 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:38:13.792 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:38:13.794 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-08-06 08:38:13.795 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:38:13.860 +03:00 [ERR] Failed executing DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:38:13.863 +03:00 [DBG] Disposing transaction.
+2024-08-06 08:38:13.864 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.864 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:38:13.867 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:38:13.871 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:38:13.872 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:39:32.375 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-06 08:39:33.235 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:33.237 +03:00 [WRN] No store type was specified for the decimal property 'Total_Balance' on entity type 'Leave_Balances'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:33.237 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:33.237 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:33.368 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:39:33.406 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:39:33.493 +03:00 [DBG] Created DbConnection. (84ms).
+2024-08-06 08:39:33.496 +03:00 [DBG] Migrating using database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.509 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.852 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.862 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:39:33.871 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2024-08-06 08:39:33.874 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (16ms).
+2024-08-06 08:39:33.881 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:39:33.921 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:39:33.923 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.934 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-08-06 08:39:33.941 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:39:33.941 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:39:33.941 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:39:33.941 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.943 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.944 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:39:33.968 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:39:33.968 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.968 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:39:33.969 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.969 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.970 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:39:33.970 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:39:33.970 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:39:33.970 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:39:33.972 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:39:33.973 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.973 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:39:33.973 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:39:33.973 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:39:33.973 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:39:33.973 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.973 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.974 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:39:33.975 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:39:33.975 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.975 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:39:33.998 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.998 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:33.998 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:39:33.998 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:39:33.998 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:39:33.999 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:39:34.003 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:39:34.009 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:34.011 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 4ms reading results.
+2024-08-06 08:39:34.012 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:34.012 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:39:34.030 +03:00 [INF] Applying migration '20240806053614_Functional-Role'.
+2024-08-06 08:39:34.179 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:34.179 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:34.182 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-08-06 08:39:34.190 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-08-06 08:39:34.192 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:39:34.192 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:39:34.194 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-08-06 08:39:34.194 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:39:34.228 +03:00 [ERR] Failed executing DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:39:34.230 +03:00 [DBG] Disposing transaction.
+2024-08-06 08:39:34.231 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:34.231 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:39:34.233 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:39:34.237 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:34.238 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:39:57.416 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-06 08:39:59.257 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:59.259 +03:00 [WRN] No store type was specified for the decimal property 'Total_Balance' on entity type 'Leave_Balances'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:59.260 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:59.260 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:39:59.487 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:39:59.530 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:39:59.644 +03:00 [DBG] Created DbConnection. (107ms).
+2024-08-06 08:39:59.660 +03:00 [DBG] Migrating using database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:39:59.682 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.055 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.065 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:40:00.075 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2024-08-06 08:40:00.078 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (17ms).
+2024-08-06 08:40:00.105 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:40:00.159 +03:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:40:00.162 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.174 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (7ms).
+2024-08-06 08:40:00.183 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:40:00.183 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:40:00.183 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:40:00.183 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.185 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.186 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:40:00.214 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:40:00.214 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.215 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:40:00.216 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.216 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.217 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:40:00.217 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:40:00.217 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:40:00.217 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:40:00.222 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-06 08:40:00.222 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.223 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:40:00.223 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-06 08:40:00.223 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:40:00.223 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-06 08:40:00.223 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.223 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.223 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:40:00.224 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-06 08:40:00.224 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.224 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:40:00.246 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.247 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.247 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:40:00.247 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:40:00.247 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 08:40:00.247 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:40:00.257 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-06 08:40:00.261 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.263 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 3ms reading results.
+2024-08-06 08:40:00.264 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.264 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:40:00.281 +03:00 [INF] Applying migration '20240806053614_Functional-Role'.
+2024-08-06 08:40:00.664 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.664 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.668 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-08-06 08:40:00.748 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-08-06 08:40:00.749 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:40:00.749 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:40:00.751 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-08-06 08:40:00.751 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:40:00.919 +03:00 [INF] Executed DbCommand (168ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[employees]') AND [c].[name] = N'Functional_ID');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [employees] ALTER COLUMN [Functional_ID] int NOT NULL;
+2024-08-06 08:40:00.920 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:40:00.921 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:40:00.921 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-08-06 08:40:00.922 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[balances]') AND [c].[name] = N'Total_Balance');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [balances] DROP CONSTRAINT [' + @var1 + '];');
+ALTER TABLE [balances] ALTER COLUMN [Total_Balance] decimal(18,2) NOT NULL;
+2024-08-06 08:40:00.955 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[balances]') AND [c].[name] = N'Total_Balance');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [balances] DROP CONSTRAINT [' + @var1 + '];');
+ALTER TABLE [balances] ALTER COLUMN [Total_Balance] decimal(18,2) NOT NULL;
+2024-08-06 08:40:00.956 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-06 08:40:00.956 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:40:00.956 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-06 08:40:00.956 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240806053614_Functional-Role', N'9.0.0-preview.6.24327.4');
+2024-08-06 08:40:00.959 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240806053614_Functional-Role', N'9.0.0-preview.6.24327.4');
+2024-08-06 08:40:00.961 +03:00 [DBG] Committing transaction.
+2024-08-06 08:40:00.967 +03:00 [DBG] Committed transaction.
+2024-08-06 08:40:00.970 +03:00 [DBG] Disposing transaction.
+2024-08-06 08:40:00.970 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.970 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-08-06 08:40:00.972 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:40:00.975 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:40:00.976 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:41:37.244 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-06 08:41:37.533 +03:00 [DBG] Hosting starting
+2024-08-06 08:41:38.414 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-06 08:41:38.419 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-06 08:41:38.420 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-06 08:41:38.421 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-06 08:41:38.422 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-06 08:41:38.424 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 08:41:38.426 +03:00 [INF] Hosting environment: Development
+2024-08-06 08:41:38.467 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-06 08:41:38.471 +03:00 [DBG] Hosting started
+2024-08-06 08:41:38.579 +03:00 [DBG] Connection id "0HN5LR9OIHUE1" accepted.
+2024-08-06 08:41:38.582 +03:00 [DBG] Connection id "0HN5LR9OIHUE1" started.
+2024-08-06 08:41:38.884 +03:00 [DBG] Connection id "0HN5LR9OIHUE2" accepted.
+2024-08-06 08:41:38.886 +03:00 [DBG] Connection id "0HN5LR9OIHUE2" started.
+2024-08-06 08:41:40.404 +03:00 [DBG] Connection id "0HN5LR9OIHUE3" accepted.
+2024-08-06 08:41:40.766 +03:00 [DBG] Connection id "0HN5LR9OIHUE3" started.
+2024-08-06 08:41:41.020 +03:00 [DBG] Connection 0HN5LR9OIHUE3 established using the following protocol: "Tls12"
+2024-08-06 08:41:41.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-06 08:41:41.523 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-06 08:41:41.636 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-06 08:41:41.669 +03:00 [DBG] Request did not match any endpoints
+2024-08-06 08:41:41.925 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-06 08:41:41.932 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-06 08:41:42.136 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-06 08:41:42.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 08:41:42.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-06 08:41:42.199 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-06 08:41:42.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 1081.0334ms
+2024-08-06 08:41:42.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 92.757ms
+2024-08-06 08:41:42.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 265.6098ms
+2024-08-06 08:41:42.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-06 08:41:42.559 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-06 08:41:42.561 +03:00 [DBG] Request did not match any endpoints
+2024-08-06 08:41:43.350 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 796.2526ms
+2024-08-06 08:41:47.579 +03:00 [DBG] Connection id "0HN5LR9OIHUE3" received FIN.
+2024-08-06 08:41:47.588 +03:00 [DBG] The connection queue processing loop for 0HN5LR9OIHUE3 completed.
+2024-08-06 08:41:47.592 +03:00 [DBG] Connection id "0HN5LR9OIHUE3" is closed. The last processed stream ID was 7.
+2024-08-06 08:41:47.602 +03:00 [DBG] Connection id "0HN5LR9OIHUE3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:41:47.619 +03:00 [DBG] Connection id "0HN5LR9OIHUE3" stopped.
+2024-08-06 08:41:48.622 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2024-08-06 08:41:48.623 +03:00 [DBG] Connection id "0HN5LR9OIHUE1" stopped.
+2024-08-06 08:41:48.625 +03:00 [DBG] Connection id "0HN5LR9OIHUE1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:41:48.894 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2024-08-06 08:41:48.895 +03:00 [DBG] Connection id "0HN5LR9OIHUE2" stopped.
+2024-08-06 08:41:48.897 +03:00 [DBG] Connection id "0HN5LR9OIHUE2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:42:54.947 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-06 08:42:55.262 +03:00 [DBG] Hosting starting
+2024-08-06 08:42:55.869 +03:00 [DBG] Connection id "0HN5LRAFJKURF" received FIN.
+2024-08-06 08:42:55.883 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-06 08:42:55.888 +03:00 [DBG] Connection id "0HN5LRAFJKURF" accepted.
+2024-08-06 08:42:55.895 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-06 08:42:55.897 +03:00 [DBG] Connection id "0HN5LRAFJKURF" started.
+2024-08-06 08:42:55.898 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-06 08:42:55.901 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-06 08:42:55.903 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-06 08:42:55.905 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 08:42:55.907 +03:00 [INF] Hosting environment: Development
+2024-08-06 08:42:55.908 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-06 08:42:55.910 +03:00 [DBG] Hosting started
+2024-08-06 08:42:56.477 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-06 08:42:56.820 +03:00 [DBG] Connection id "0HN5LRAFJKURF" stopped.
+2024-08-06 08:42:56.931 +03:00 [DBG] Connection id "0HN5LRAFJKURG" accepted.
+2024-08-06 08:42:57.210 +03:00 [DBG] Connection id "0HN5LRAFJKURG" started.
+2024-08-06 08:42:57.221 +03:00 [DBG] Connection id "0HN5LRAFJKURF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:42:57.314 +03:00 [DBG] Connection 0HN5LRAFJKURG established using the following protocol: "Tls12"
+2024-08-06 08:42:57.438 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-06 08:42:57.678 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-06 08:42:57.759 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-06 08:42:57.763 +03:00 [DBG] Request did not match any endpoints
+2024-08-06 08:42:58.111 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-06 08:42:58.115 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-06 08:42:58.214 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-06 08:42:58.217 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-06 08:42:58.228 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 801.9089ms
+2024-08-06 08:42:58.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 08:42:58.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-06 08:42:58.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 24.9285ms
+2024-08-06 08:42:58.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 165.1211ms
+2024-08-06 08:42:58.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-06 08:42:58.952 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-06 08:42:58.958 +03:00 [DBG] Request did not match any endpoints
+2024-08-06 08:43:00.239 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1655.2463ms
+2024-08-06 08:43:03.959 +03:00 [DBG] Connection id "0HN5LRAFJKURG" received FIN.
+2024-08-06 08:43:04.031 +03:00 [DBG] The connection queue processing loop for 0HN5LRAFJKURG completed.
+2024-08-06 08:43:04.034 +03:00 [DBG] Connection id "0HN5LRAFJKURG" is closed. The last processed stream ID was 7.
+2024-08-06 08:43:04.036 +03:00 [DBG] Connection id "0HN5LRAFJKURG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:43:04.046 +03:00 [DBG] Connection id "0HN5LRAFJKURG" stopped.
+2024-08-06 08:45:27.738 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-06 08:45:28.078 +03:00 [DBG] Hosting starting
+2024-08-06 08:45:28.562 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-06 08:45:28.564 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-06 08:45:28.565 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-06 08:45:28.566 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-06 08:45:28.567 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-06 08:45:28.569 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 08:45:28.572 +03:00 [INF] Hosting environment: Development
+2024-08-06 08:45:28.573 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR
+2024-08-06 08:45:28.575 +03:00 [DBG] Hosting started
+2024-08-06 08:45:28.670 +03:00 [DBG] Connection id "0HN5LRBT4S4FJ" accepted.
+2024-08-06 08:45:28.674 +03:00 [DBG] Connection id "0HN5LRBT4S4FJ" started.
+2024-08-06 08:45:28.697 +03:00 [DBG] Connection id "0HN5LRBT4S4FJ" received FIN.
+2024-08-06 08:45:28.723 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-06 08:45:28.888 +03:00 [DBG] Connection id "0HN5LRBT4S4FJ" stopped.
+2024-08-06 08:45:28.945 +03:00 [DBG] Connection id "0HN5LRBT4S4FJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:45:29.389 +03:00 [DBG] Connection id "0HN5LRBT4S4FK" accepted.
+2024-08-06 08:45:29.801 +03:00 [DBG] Connection id "0HN5LRBT4S4FK" started.
+2024-08-06 08:45:29.883 +03:00 [DBG] Connection 0HN5LRBT4S4FK established using the following protocol: "Tls12"
+2024-08-06 08:45:29.989 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-06 08:45:30.215 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-06 08:45:30.291 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-06 08:45:30.294 +03:00 [DBG] Request did not match any endpoints
+2024-08-06 08:45:30.552 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-06 08:45:30.556 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-06 08:45:30.655 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-06 08:45:30.657 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-06 08:45:30.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 682.7651ms
+2024-08-06 08:45:30.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 08:45:30.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-06 08:45:30.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 39.5796ms
+2024-08-06 08:45:31.085 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 363.2058ms
+2024-08-06 08:45:31.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-06 08:45:31.297 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-06 08:45:31.300 +03:00 [DBG] Request did not match any endpoints
+2024-08-06 08:45:31.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 688.5915ms
+2024-08-06 08:45:32.584 +03:00 [DBG] Connection id "0HN5LRBT4S4FK" received FIN.
+2024-08-06 08:45:32.603 +03:00 [DBG] The connection queue processing loop for 0HN5LRBT4S4FK completed.
+2024-08-06 08:45:32.607 +03:00 [DBG] Connection id "0HN5LRBT4S4FK" is closed. The last processed stream ID was 7.
+2024-08-06 08:45:32.610 +03:00 [DBG] Connection id "0HN5LRBT4S4FK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:45:32.627 +03:00 [DBG] Connection id "0HN5LRBT4S4FK" stopped.
+2024-08-06 08:45:40.762 +03:00 [DBG] Connection id "0HN5LRBT4S4FL" accepted.
+2024-08-06 08:45:40.765 +03:00 [DBG] Connection id "0HN5LRBT4S4FL" started.
+2024-08-06 08:45:40.770 +03:00 [DBG] Connection 0HN5LRBT4S4FL established using the following protocol: "Tls12"
+2024-08-06 08:45:40.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/api/Employee - null null
+2024-08-06 08:45:40.798 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-08-06 08:45:40.806 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-08-06 08:45:40.812 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:45:40.820 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:45:40.825 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:45:40.893 +03:00 [INF] Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.EmployeeSummary]]] GetAllEmployee() on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:45:40.901 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:45:40.903 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:45:40.905 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:45:40.911 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:45:40.915 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:45:40.921 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:45:41.384 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-06 08:45:41.939 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:45:43.464 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:45:43.467 +03:00 [WRN] No store type was specified for the decimal property 'Total_Balance' on entity type 'Leave_Balances'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:45:43.469 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:45:43.471 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-06 08:45:43.656 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:45:43.730 +03:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-08-06 08:45:44.130 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Employee>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.BirthDate (DateTime) Required, 1], [Property: Employee.CityId (Guid) Required FK Index, 2], [Property: Employee.Father (string) Required, 3], [Property: Employee.Functional_ID (enum_Functional) Required, 4], [Property: Employee.IsActive (bool) Required, 5], [Property: Employee.LastName (string) Required, 6], [Property: Employee.Mather (string) Required, 7], [Property: Employee.Name (string) Required, 8], [Property: Employee.Salary_basis (decimal) Required, 9], [Property: Employee.UniverCityId (Guid) Required FK Index, 10], [Property: Employee.UniversityDegree (University_degree) Required, 11], [Property: Employee.date_of_employment (DateTime) Required, 12] }
+        SELECT e.id, e.BirthDate, e.CityId, e.Father, e.Functional_ID, e.IsActive, e.LastName, e.Mather, e.Name, e.Salary_basis, e.UniverCityId, e.UniversityDegree, e.date_of_employment
+        FROM employees AS e) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Employee entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Employee instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Employee);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Employee.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.Employee").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Employee)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee")]: 
+                        {
+                            return 
+                            {
+                                Employee instance;
+                                instance = new Employee();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<BirthDate>k__BackingField = dataReader.GetDateTime(1);
+                                instance.<CityId>k__BackingField = dataReader.GetGuid(2);
+                                instance.<Father>k__BackingField = dataReader.GetString(3);
+                                instance.<Functional_ID>k__BackingField = Invoke(((EnumToNumberConverter<enum_Functional, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Employee.Functional_ID (enum_Functional) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee").FindProperty("Functional_ID")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(4));
+                                instance.<IsActive>k__BackingField = dataReader.GetBoolean(5);
+                                instance.<LastName>k__BackingField = dataReader.GetString(6);
+                                instance.<Mather>k__BackingField = dataReader.GetString(7);
+                                instance.<Name>k__BackingField = dataReader.GetString(8);
+                                instance.<Salary_basis>k__BackingField = dataReader.GetDecimal(9);
+                                instance.<UniverCityId>k__BackingField = dataReader.GetGuid(10);
+                                instance.<UniversityDegree>k__BackingField = Invoke(((EnumToNumberConverter<University_degree, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Employee.UniversityDegree (University_degree) Required | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee").FindProperty("UniversityDegree")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(11));
+                                instance.<date_of_employment>k__BackingField = dataReader.GetDateTime(12);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Employee)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-06 08:45:44.198 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:45:44.234 +03:00 [DBG] Created DbConnection. (37ms).
+2024-08-06 08:45:44.245 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:45:45.004 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:45:45.012 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:45:45.019 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2024-08-06 08:45:45.023 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2024-08-06 08:45:45.036 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:45:45.141 +03:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:45:45.235 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:45:45.312 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:45:45.316 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:45:45.330 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:45:45.347 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 190ms reading results.
+2024-08-06 08:45:45.354 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:45:45.370 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (15ms).
+2024-08-06 08:45:45.431 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:45:45.439 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:45:45.443 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:45:45.445 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:45:45.447 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:45:45.449 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:45:45.452 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HR_Models.Models.VM.EmployeeSummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:45:45.621 +03:00 [INF] Executed action HR.Controllers.EmployeeController.GetAllEmployee (HR) in 4698.0356ms
+2024-08-06 08:45:45.638 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:45:45.647 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:45:45.684 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:45:45.689 +03:00 [DBG] Disposed connection to database '' on server '' (5ms).
+2024-08-06 08:45:45.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/api/Employee - 200 1331 application/json; charset=utf-8 4918.8623ms
+2024-08-06 08:45:47.576 +03:00 [DBG] Connection id "0HN5LRBT4S4FL" received FIN.
+2024-08-06 08:45:47.583 +03:00 [DBG] Connection id "0HN5LRBT4S4FL" is closed. The last processed stream ID was 1.
+2024-08-06 08:45:47.584 +03:00 [DBG] Connection id "0HN5LRBT4S4FL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:45:47.583 +03:00 [DBG] The connection queue processing loop for 0HN5LRBT4S4FL completed.
+2024-08-06 08:45:47.588 +03:00 [DBG] Connection id "0HN5LRBT4S4FL" stopped.
+2024-08-06 08:46:32.584 +03:00 [DBG] Connection id "0HN5LRBT4S4FM" accepted.
+2024-08-06 08:46:32.586 +03:00 [DBG] Connection id "0HN5LRBT4S4FM" started.
+2024-08-06 08:46:32.600 +03:00 [DBG] Connection 0HN5LRBT4S4FM established using the following protocol: "Tls12"
+2024-08-06 08:46:32.636 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7138/api/AddEmployee - multipart/form-data; boundary=----WebKitFormBoundaryGfOtjj0Wt9pTkZvR 1078
+2024-08-06 08:46:32.650 +03:00 [DBG] 1 candidate(s) found for the request path '/api/AddEmployee'
+2024-08-06 08:46:32.651 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)' with route pattern 'api/AddEmployee' is valid for the request path '/api/AddEmployee'
+2024-08-06 08:46:32.654 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)'
+2024-08-06 08:46:32.658 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:46:32.659 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)'
+2024-08-06 08:46:32.677 +03:00 [INF] Route matched with {action = "AddEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HR_Models.Models.Employee]] AddEmployee(HR_Models.Models.Creation.EmployeeCreation) on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:46:32.680 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:46:32.682 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:46:32.684 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:46:32.687 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:46:32.692 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:46:32.695 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:46:32.699 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:46:32.714 +03:00 [DBG] Connection id "0HN5LRBT4S4FM", Request id "0HN5LRBT4S4FM:00000001": started reading request body.
+2024-08-06 08:46:32.717 +03:00 [DBG] Connection id "0HN5LRBT4S4FM", Request id "0HN5LRBT4S4FM:00000001": done reading request body.
+2024-08-06 08:46:32.735 +03:00 [DBG] Attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation' ...
+2024-08-06 08:46:32.742 +03:00 [DBG] Attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation' using the name '' in request data ...
+2024-08-06 08:46:32.749 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Name' of type 'System.String' using the name 'Name' in request data ...
+2024-08-06 08:46:32.753 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Name' of type 'System.String'.
+2024-08-06 08:46:32.759 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Father' of type 'System.String' using the name 'Father' in request data ...
+2024-08-06 08:46:32.761 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Father' of type 'System.String'.
+2024-08-06 08:46:32.764 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.LastName' of type 'System.String' using the name 'LastName' in request data ...
+2024-08-06 08:46:32.766 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.LastName' of type 'System.String'.
+2024-08-06 08:46:32.769 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Mather' of type 'System.String' using the name 'Mather' in request data ...
+2024-08-06 08:46:32.772 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Mather' of type 'System.String'.
+2024-08-06 08:46:32.775 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.BirthDate' of type 'System.DateTime' using the name 'BirthDate' in request data ...
+2024-08-06 08:46:32.790 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.BirthDate' of type 'System.DateTime'.
+2024-08-06 08:46:32.793 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.date_of_employment' of type 'System.DateTime' using the name 'date_of_employment' in request data ...
+2024-08-06 08:46:32.795 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.date_of_employment' of type 'System.DateTime'.
+2024-08-06 08:46:32.798 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Salary_basis' of type 'System.Decimal' using the name 'Salary_basis' in request data ...
+2024-08-06 08:46:32.802 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Salary_basis' of type 'System.Decimal'.
+2024-08-06 08:46:32.806 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Functional_ID' of type 'HR_Models.EnumClass.enum_Functional' using the name 'Functional_ID' in request data ...
+2024-08-06 08:46:32.811 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Functional_ID' of type 'HR_Models.EnumClass.enum_Functional'.
+2024-08-06 08:46:32.814 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.CityId' of type 'System.Guid' using the name 'CityId' in request data ...
+2024-08-06 08:46:32.824 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.CityId' of type 'System.Guid'.
+2024-08-06 08:46:32.827 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.UniverCityId' of type 'System.Guid' using the name 'UniverCityId' in request data ...
+2024-08-06 08:46:32.831 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.UniverCityId' of type 'System.Guid'.
+2024-08-06 08:46:32.834 +03:00 [DBG] Done attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation'.
+2024-08-06 08:46:32.836 +03:00 [DBG] Done attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation'.
+2024-08-06 08:46:32.841 +03:00 [DBG] Attempting to validate the bound parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation' ...
+2024-08-06 08:46:32.858 +03:00 [DBG] Done attempting to validate the bound parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation'.
+2024-08-06 08:46:32.861 +03:00 [DBG] The request has model state errors, returning an error response.
+2024-08-06 08:46:32.864 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-08-06 08:46:32.867 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:46:32.871 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-08-06 08:46:32.876 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:46:32.878 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-08-06 08:46:32.882 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-08-06 08:46:32.884 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-08-06 08:46:32.923 +03:00 [INF] Executed action HR.Controllers.EmployeeController.AddEmployee (HR) in 228.4935ms
+2024-08-06 08:46:32.928 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)'
+2024-08-06 08:46:32.930 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7138/api/AddEmployee - 400 414 application/problem+json; charset=utf-8 293.3622ms
+2024-08-06 08:46:47.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/getAllCity - null null
+2024-08-06 08:46:47.839 +03:00 [DBG] 1 candidate(s) found for the request path '/getAllCity'
+2024-08-06 08:46:47.841 +03:00 [DBG] Endpoint 'HR.Controllers.CityController.GetAllAsync (HR)' with route pattern 'getAllCity' is valid for the request path '/getAllCity'
+2024-08-06 08:46:47.843 +03:00 [DBG] Request matched endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-06 08:46:47.851 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:46:47.854 +03:00 [INF] Executing endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-06 08:46:47.864 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.CitySummary]]] GetAllAsync() on controller HR.Controllers.CityController (HR).
+2024-08-06 08:46:47.869 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:46:47.873 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:46:47.878 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:46:47.881 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:46:47.883 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:46:47.885 +03:00 [DBG] Executing controller factory for controller HR.Controllers.CityController (HR)
+2024-08-06 08:46:47.892 +03:00 [DBG] Executed controller factory for controller HR.Controllers.CityController (HR)
+2024-08-06 08:46:47.971 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:46:47.976 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()'
+2024-08-06 08:46:47.984 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<City>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.city (string) Required, 1] }
+        SELECT c.id, c.city
+        FROM citys AS c) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        City entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            City instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(City);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: City.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.City").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (City)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.City")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]: 
+                        {
+                            return 
+                            {
+                                City instance;
+                                instance = new City();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<city>k__BackingField = dataReader.GetString(1);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: City | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.City")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(City)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-06 08:46:47.997 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:46:47.999 +03:00 [DBG] Created DbConnection. (1ms).
+2024-08-06 08:46:48.000 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:46:48.003 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:46:48.007 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:46:48.008 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:46:48.010 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-06 08:46:48.012 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-06 08:46:48.024 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[city]
+FROM [citys] AS [c]
+2024-08-06 08:46:48.030 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:46:48.036 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:46:48.039 +03:00 [DBG] Context 'HR_Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:46:48.042 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:46:48.043 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 16ms reading results.
+2024-08-06 08:46:48.046 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:46:48.047 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-08-06 08:46:48.053 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:46:48.058 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:46:48.059 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:46:48.061 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:46:48.063 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:46:48.064 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:46:48.066 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HR_Models.Models.VM.CitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:46:48.070 +03:00 [INF] Executed action HR.Controllers.CityController.GetAllAsync (HR) in 185.0724ms
+2024-08-06 08:46:48.074 +03:00 [INF] Executed endpoint 'HR.Controllers.CityController.GetAllAsync (HR)'
+2024-08-06 08:46:48.077 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:46:48.081 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:46:48.084 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-08-06 08:46:48.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/getAllCity - 200 256 application/json; charset=utf-8 251.1303ms
+2024-08-06 08:47:34.450 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/api/UniverCity - null null
+2024-08-06 08:47:34.466 +03:00 [DBG] 1 candidate(s) found for the request path '/api/UniverCity'
+2024-08-06 08:47:34.469 +03:00 [DBG] Endpoint 'HR.Controllers.UniverCityController.GetAllUniverCity (HR)' with route pattern 'api/UniverCity' is valid for the request path '/api/UniverCity'
+2024-08-06 08:47:34.475 +03:00 [DBG] Request matched endpoint 'HR.Controllers.UniverCityController.GetAllUniverCity (HR)'
+2024-08-06 08:47:34.477 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:47:34.478 +03:00 [INF] Executing endpoint 'HR.Controllers.UniverCityController.GetAllUniverCity (HR)'
+2024-08-06 08:47:34.488 +03:00 [INF] Route matched with {action = "GetAllUniverCity", controller = "UniverCity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.UniverCitySummary]]] GetAllUniverCity() on controller HR.Controllers.UniverCityController (HR).
+2024-08-06 08:47:34.492 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:47:34.494 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:47:34.496 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:47:34.500 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:47:34.505 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:47:34.508 +03:00 [DBG] Executing controller factory for controller HR.Controllers.UniverCityController (HR)
+2024-08-06 08:47:34.510 +03:00 [DBG] Executed controller factory for controller HR.Controllers.UniverCityController (HR)
+2024-08-06 08:47:34.529 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:47:34.536 +03:00 [DBG] Compiling query expression: 
+'DbSet<UniverCity>()'
+2024-08-06 08:47:34.544 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<UniverCity>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: UniverCity.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UniverCity.Name (string) Required, 1] }
+        SELECT u.id, u.Name
+        FROM univers AS u) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        UniverCity entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            UniverCity instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(UniverCity);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: UniverCity.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.UniverCity").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (UniverCity)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: UniverCity | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.UniverCity")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: UniverCity | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.UniverCity")]: 
+                        {
+                            return 
+                            {
+                                UniverCity instance;
+                                instance = new UniverCity();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<Name>k__BackingField = dataReader.GetString(1);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: UniverCity | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.UniverCity")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(UniverCity)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-06 08:47:34.559 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:47:34.560 +03:00 [DBG] Created DbConnection. (1ms).
+2024-08-06 08:47:34.562 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:34.564 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:34.565 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:47:34.568 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-08-06 08:47:34.570 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-08-06 08:47:34.573 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[id], [u].[Name]
+FROM [univers] AS [u]
+2024-08-06 08:47:34.584 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[id], [u].[Name]
+FROM [univers] AS [u]
+2024-08-06 08:47:34.593 +03:00 [DBG] Context 'HR_Context' started tracking 'UniverCity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:34.602 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:34.604 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 14ms reading results.
+2024-08-06 08:47:34.607 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:34.608 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-08-06 08:47:34.619 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:47:34.623 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:47:34.625 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:47:34.628 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:47:34.630 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:47:34.631 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:47:34.633 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HR_Models.Models.VM.UniverCitySummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:47:34.640 +03:00 [INF] Executed action HR.Controllers.UniverCityController.GetAllUniverCity (HR) in 132.3836ms
+2024-08-06 08:47:34.652 +03:00 [INF] Executed endpoint 'HR.Controllers.UniverCityController.GetAllUniverCity (HR)'
+2024-08-06 08:47:34.654 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:47:34.655 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:34.657 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:47:34.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/api/UniverCity - 200 89 application/json; charset=utf-8 210.1247ms
+2024-08-06 08:47:45.162 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7138/api/AddEmployee - multipart/form-data; boundary=----WebKitFormBoundaryw880f9AfyjGPbZG8 1126
+2024-08-06 08:47:45.166 +03:00 [DBG] 1 candidate(s) found for the request path '/api/AddEmployee'
+2024-08-06 08:47:45.167 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)' with route pattern 'api/AddEmployee' is valid for the request path '/api/AddEmployee'
+2024-08-06 08:47:45.170 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)'
+2024-08-06 08:47:45.173 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:47:45.174 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)'
+2024-08-06 08:47:45.175 +03:00 [INF] Route matched with {action = "AddEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HR_Models.Models.Employee]] AddEmployee(HR_Models.Models.Creation.EmployeeCreation) on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:47:45.213 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:47:45.225 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:47:45.227 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:47:45.231 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:47:45.236 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:47:45.239 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:47:45.246 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:47:45.249 +03:00 [DBG] Connection id "0HN5LRBT4S4FM", Request id "0HN5LRBT4S4FM:00000007": started reading request body.
+2024-08-06 08:47:45.254 +03:00 [DBG] Connection id "0HN5LRBT4S4FM", Request id "0HN5LRBT4S4FM:00000007": done reading request body.
+2024-08-06 08:47:45.257 +03:00 [DBG] Attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation' ...
+2024-08-06 08:47:45.259 +03:00 [DBG] Attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation' using the name '' in request data ...
+2024-08-06 08:47:45.262 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Name' of type 'System.String' using the name 'Name' in request data ...
+2024-08-06 08:47:45.264 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Name' of type 'System.String'.
+2024-08-06 08:47:45.269 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Father' of type 'System.String' using the name 'Father' in request data ...
+2024-08-06 08:47:45.271 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Father' of type 'System.String'.
+2024-08-06 08:47:45.274 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.LastName' of type 'System.String' using the name 'LastName' in request data ...
+2024-08-06 08:47:45.277 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.LastName' of type 'System.String'.
+2024-08-06 08:47:45.279 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Mather' of type 'System.String' using the name 'Mather' in request data ...
+2024-08-06 08:47:45.281 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Mather' of type 'System.String'.
+2024-08-06 08:47:45.286 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.BirthDate' of type 'System.DateTime' using the name 'BirthDate' in request data ...
+2024-08-06 08:47:45.288 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.BirthDate' of type 'System.DateTime'.
+2024-08-06 08:47:45.290 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.date_of_employment' of type 'System.DateTime' using the name 'date_of_employment' in request data ...
+2024-08-06 08:47:45.293 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.date_of_employment' of type 'System.DateTime'.
+2024-08-06 08:47:45.295 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Salary_basis' of type 'System.Decimal' using the name 'Salary_basis' in request data ...
+2024-08-06 08:47:45.298 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Salary_basis' of type 'System.Decimal'.
+2024-08-06 08:47:45.302 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Functional_ID' of type 'HR_Models.EnumClass.enum_Functional' using the name 'Functional_ID' in request data ...
+2024-08-06 08:47:45.304 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.Functional_ID' of type 'HR_Models.EnumClass.enum_Functional'.
+2024-08-06 08:47:45.307 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.CityId' of type 'System.Guid' using the name 'CityId' in request data ...
+2024-08-06 08:47:45.309 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.CityId' of type 'System.Guid'.
+2024-08-06 08:47:45.312 +03:00 [DBG] Attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.UniverCityId' of type 'System.Guid' using the name 'UniverCityId' in request data ...
+2024-08-06 08:47:45.314 +03:00 [DBG] Done attempting to bind property 'HR_Models.Models.Creation.EmployeeCreation.UniverCityId' of type 'System.Guid'.
+2024-08-06 08:47:45.318 +03:00 [DBG] Done attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation'.
+2024-08-06 08:47:45.320 +03:00 [DBG] Done attempting to bind parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation'.
+2024-08-06 08:47:45.322 +03:00 [DBG] Attempting to validate the bound parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation' ...
+2024-08-06 08:47:45.324 +03:00 [DBG] Done attempting to validate the bound parameter 'employee' of type 'HR_Models.Models.Creation.EmployeeCreation'.
+2024-08-06 08:47:45.331 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:47:45.363 +03:00 [DBG] 'HR_Context' generated a value for the property 'Employee.id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:45.382 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:45.389 +03:00 [DBG] SaveChanges starting for 'HR_Context'.
+2024-08-06 08:47:45.393 +03:00 [DBG] DetectChanges starting for 'HR_Context'.
+2024-08-06 08:47:45.425 +03:00 [DBG] DetectChanges completed for 'HR_Context'.
+2024-08-06 08:47:45.513 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:47:45.515 +03:00 [DBG] Created DbConnection. (1ms).
+2024-08-06 08:47:45.518 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:45.521 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:45.524 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:47:45.526 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:47:45.538 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2024-08-06 08:47:45.543 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p10='?' (DbType = Guid), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [employees] ([id], [BirthDate], [CityId], [Father], [Functional_ID], [IsActive], [LastName], [Mather], [Name], [Salary_basis], [UniverCityId], [UniversityDegree], [date_of_employment])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2024-08-06 08:47:45.587 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p10='?' (DbType = Guid), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [employees] ([id], [BirthDate], [CityId], [Father], [Functional_ID], [IsActive], [LastName], [Mather], [Name], [Salary_basis], [UniverCityId], [UniversityDegree], [date_of_employment])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2024-08-06 08:47:45.593 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:45.596 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 4ms reading results.
+2024-08-06 08:47:45.599 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:45.601 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (2ms).
+2024-08-06 08:47:45.610 +03:00 [DBG] An entity of type 'Employee' tracked by 'HR_Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:45.614 +03:00 [DBG] SaveChanges completed for 'HR_Context' with 1 entities written to the database.
+2024-08-06 08:47:45.618 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:47:45.621 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:47:45.623 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:47:45.624 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:47:45.626 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:47:45.627 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:47:45.629 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'HR_Models.Models.Employee'.
+2024-08-06 08:47:45.650 +03:00 [DBG] Found the endpoints ["HR.Controllers.EmployeeController.GetAllEmployee (HR)"] for address (id=[a3fbebc3-b4b8-4f3a-91f1-08dcb5db4bc7],action=[GetAllEmployee],controller=[Employee])
+2024-08-06 08:47:45.659 +03:00 [DBG] Successfully processed template api/Employee for HR.Controllers.EmployeeController.GetAllEmployee (HR) resulting in /api/Employee and ?id=a3fbebc3-b4b8-4f3a-91f1-08dcb5db4bc7
+2024-08-06 08:47:45.664 +03:00 [DBG] Link generation succeeded for endpoints ["HR.Controllers.EmployeeController.GetAllEmployee (HR)"] with result /api/Employee?id=a3fbebc3-b4b8-4f3a-91f1-08dcb5db4bc7
+2024-08-06 08:47:45.682 +03:00 [INF] Executed action HR.Controllers.EmployeeController.AddEmployee (HR) in 442.8348ms
+2024-08-06 08:47:45.684 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.AddEmployee (HR)'
+2024-08-06 08:47:45.687 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:47:45.689 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:45.690 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:47:45.693 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7138/api/AddEmployee - 201 619 application/json; charset=utf-8 531.2433ms
+2024-08-06 08:47:55.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/api/Employee - null null
+2024-08-06 08:47:55.030 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-08-06 08:47:55.032 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-08-06 08:47:55.034 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:47:55.036 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:47:55.037 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:47:55.039 +03:00 [INF] Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.EmployeeSummary]]] GetAllEmployee() on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:47:55.042 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:47:55.044 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:47:55.047 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:47:55.053 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:47:55.055 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:47:55.057 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:47:55.061 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:47:55.069 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:47:55.073 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:47:55.075 +03:00 [DBG] Created DbConnection. (1ms).
+2024-08-06 08:47:55.076 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:55.078 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:55.080 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:47:55.081 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:47:55.086 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-08-06 08:47:55.088 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:47:55.095 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:47:55.098 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:55.103 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:55.105 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:55.108 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:47:55.111 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:55.114 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 15ms reading results.
+2024-08-06 08:47:55.120 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:55.124 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (3ms).
+2024-08-06 08:47:55.130 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:47:55.137 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:47:55.140 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:47:55.141 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:47:55.143 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:47:55.144 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:47:55.146 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HR_Models.Models.VM.EmployeeSummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:47:55.151 +03:00 [INF] Executed action HR.Controllers.EmployeeController.GetAllEmployee (HR) in 93.1144ms
+2024-08-06 08:47:55.156 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:47:55.158 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:47:55.159 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:47:55.161 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:47:55.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/api/Employee - 200 1776 application/json; charset=utf-8 136.9921ms
+2024-08-06 08:48:24.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/api/Employee - null null
+2024-08-06 08:48:24.548 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-08-06 08:48:24.550 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-08-06 08:48:24.552 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:48:24.554 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:48:24.556 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:48:24.558 +03:00 [INF] Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.EmployeeSummary]]] GetAllEmployee() on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:48:24.562 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:48:24.565 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:48:24.569 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:48:24.573 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:48:24.575 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:48:24.577 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:48:24.579 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:48:24.583 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:48:24.586 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:48:24.587 +03:00 [DBG] Created DbConnection. (1ms).
+2024-08-06 08:48:24.589 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:48:24.591 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:48:24.593 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:48:24.594 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:48:24.596 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-06 08:48:24.598 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:48:24.606 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:48:24.609 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:48:24.611 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:48:24.614 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:48:24.617 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:48:24.619 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:48:24.621 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 12ms reading results.
+2024-08-06 08:48:24.624 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:48:24.625 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-08-06 08:48:24.631 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:48:24.634 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:48:24.636 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:48:24.638 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:48:24.639 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:48:24.641 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:48:24.642 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HR_Models.Models.VM.EmployeeSummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:48:24.645 +03:00 [INF] Executed action HR.Controllers.EmployeeController.GetAllEmployee (HR) in 68.1036ms
+2024-08-06 08:48:24.655 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:48:24.657 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:48:24.659 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:48:24.660 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:48:24.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/api/Employee - 200 1776 application/json; charset=utf-8 120.5427ms
+2024-08-06 08:49:20.023 +03:00 [INF] Request starting HTTP/2 PATCH https://localhost:7138/api/Patch?id=a3fbebc3-b4b8-4f3a-91f1-08dcb5db4bc7 - application/json-patch+json 88
+2024-08-06 08:49:20.041 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Patch'
+2024-08-06 08:49:20.048 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)' with route pattern 'api/Patch' is valid for the request path '/api/Patch'
+2024-08-06 08:49:20.054 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)'
+2024-08-06 08:49:20.056 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:49:20.057 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)'
+2024-08-06 08:49:20.068 +03:00 [INF] Route matched with {action = "UpdateEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HR_Models.Models.Employee]] UpdateEmployee(System.Guid, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]) on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:49:20.072 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:49:20.074 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:49:20.076 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:49:20.081 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:49:20.083 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:49:20.085 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:49:20.087 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:49:20.096 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-08-06 08:49:20.098 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-08-06 08:49:20.102 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-08-06 08:49:20.103 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-08-06 08:49:20.105 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-08-06 08:49:20.107 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-08-06 08:49:20.109 +03:00 [DBG] Attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]' ...
+2024-08-06 08:49:20.114 +03:00 [DBG] Attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]' using the name '' in request data ...
+2024-08-06 08:49:20.119 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-08-06 08:49:20.124 +03:00 [DBG] Connection id "0HN5LRBT4S4FM", Request id "0HN5LRBT4S4FM:0000000D": started reading request body.
+2024-08-06 08:49:20.128 +03:00 [DBG] Connection id "0HN5LRBT4S4FM", Request id "0HN5LRBT4S4FM:0000000D": done reading request body.
+2024-08-06 08:49:20.218 +03:00 [DBG] Done attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]'.
+2024-08-06 08:49:20.220 +03:00 [DBG] Done attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]'.
+2024-08-06 08:49:20.223 +03:00 [DBG] Attempting to validate the bound parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]' ...
+2024-08-06 08:49:20.228 +03:00 [DBG] Done attempting to validate the bound parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]'.
+2024-08-06 08:49:22.834 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:49:22.892 +03:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .FirstOrDefault(e => object.Equals(
+        objA: EF.Property<object>(e, "id"), 
+        objB: __p_0))'
+2024-08-06 08:49:23.150 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Employee>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.BirthDate (DateTime) Required, 1], [Property: Employee.CityId (Guid) Required FK Index, 2], [Property: Employee.Father (string) Required, 3], [Property: Employee.Functional_ID (enum_Functional) Required, 4], [Property: Employee.IsActive (bool) Required, 5], [Property: Employee.LastName (string) Required, 6], [Property: Employee.Mather (string) Required, 7], [Property: Employee.Name (string) Required, 8], [Property: Employee.Salary_basis (decimal) Required, 9], [Property: Employee.UniverCityId (Guid) Required FK Index, 10], [Property: Employee.UniversityDegree (University_degree) Required, 11], [Property: Employee.date_of_employment (DateTime) Required, 12] }
+        SELECT TOP(1) e.id, e.BirthDate, e.CityId, e.Father, e.Functional_ID, e.IsActive, e.LastName, e.Mather, e.Name, e.Salary_basis, e.UniverCityId, e.UniversityDegree, e.date_of_employment
+        FROM employees AS e
+        WHERE e.id == @__p_0) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Employee entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Employee instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Employee);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Employee.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.Employee").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Employee)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee")]: 
+                        {
+                            return 
+                            {
+                                Employee instance;
+                                instance = new Employee();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<BirthDate>k__BackingField = dataReader.GetDateTime(1);
+                                instance.<CityId>k__BackingField = dataReader.GetGuid(2);
+                                instance.<Father>k__BackingField = dataReader.GetString(3);
+                                instance.<Functional_ID>k__BackingField = Invoke(((EnumToNumberConverter<enum_Functional, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Employee.Functional_ID (enum_Functional) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee").FindProperty("Functional_ID")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(4));
+                                instance.<IsActive>k__BackingField = dataReader.GetBoolean(5);
+                                instance.<LastName>k__BackingField = dataReader.GetString(6);
+                                instance.<Mather>k__BackingField = dataReader.GetString(7);
+                                instance.<Name>k__BackingField = dataReader.GetString(8);
+                                instance.<Salary_basis>k__BackingField = dataReader.GetDecimal(9);
+                                instance.<UniverCityId>k__BackingField = dataReader.GetGuid(10);
+                                instance.<UniversityDegree>k__BackingField = Invoke(((EnumToNumberConverter<University_degree, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Employee.UniversityDegree (University_degree) Required | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee").FindProperty("UniversityDegree")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(11));
+                                instance.<date_of_employment>k__BackingField = dataReader.GetDateTime(12);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("HR_Models.Models.Employee")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Employee)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)
+    .SingleOrDefault()'
+2024-08-06 08:49:23.193 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:49:23.197 +03:00 [DBG] Created DbConnection. (4ms).
+2024-08-06 08:49:23.201 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.204 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.207 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:49:23.209 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:49:23.211 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-06 08:49:23.212 +03:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+WHERE [e].[id] = @__p_0
+2024-08-06 08:49:23.221 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+WHERE [e].[id] = @__p_0
+2024-08-06 08:49:23.225 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:23.228 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.230 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 5ms reading results.
+2024-08-06 08:49:23.232 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.234 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-08-06 08:49:23.252 +03:00 [DBG] SaveChanges starting for 'HR_Context'.
+2024-08-06 08:49:23.256 +03:00 [DBG] DetectChanges starting for 'HR_Context'.
+2024-08-06 08:49:23.261 +03:00 [DBG] The unchanged property 'Employee.Functional_ID' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-08-06 08:49:23.268 +03:00 [DBG] An entity of type 'Employee' tracked by 'HR_Context' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:23.276 +03:00 [DBG] DetectChanges completed for 'HR_Context'.
+2024-08-06 08:49:23.291 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.292 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.294 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:49:23.296 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:49:23.297 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-06 08:49:23.300 +03:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [employees] SET [Functional_ID] = @p0
+OUTPUT 1
+WHERE [id] = @p1;
+2024-08-06 08:49:23.322 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [employees] SET [Functional_ID] = @p0
+OUTPUT 1
+WHERE [id] = @p1;
+2024-08-06 08:49:23.328 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.332 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 5ms reading results.
+2024-08-06 08:49:23.334 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.339 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-08-06 08:49:23.341 +03:00 [DBG] An entity of type 'Employee' tracked by 'HR_Context' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:23.345 +03:00 [DBG] SaveChanges completed for 'HR_Context' with 1 entities written to the database.
+2024-08-06 08:49:23.346 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:49:23.350 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:49:23.353 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:49:23.355 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:49:23.357 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:49:23.358 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:49:23.360 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[HR_Models.Models.Employee, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:49:23.381 +03:00 [INF] Executed action HR.Controllers.EmployeeController.UpdateEmployee (HR) in 3295.1909ms
+2024-08-06 08:49:23.382 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)'
+2024-08-06 08:49:23.384 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:49:23.386 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:23.388 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-08-06 08:49:23.390 +03:00 [INF] Request finished HTTP/2 PATCH https://localhost:7138/api/Patch?id=a3fbebc3-b4b8-4f3a-91f1-08dcb5db4bc7 - 200 891 application/json; charset=utf-8 3367.4725ms
+2024-08-06 08:49:32.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/api/Employee - null null
+2024-08-06 08:49:32.090 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-08-06 08:49:32.092 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-08-06 08:49:32.095 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:49:32.097 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:49:32.100 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:49:32.102 +03:00 [INF] Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.EmployeeSummary]]] GetAllEmployee() on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:49:32.144 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:49:32.148 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:49:32.150 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:49:32.155 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:49:32.164 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:49:32.166 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:49:32.168 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:49:32.171 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:49:32.174 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:49:32.180 +03:00 [DBG] Created DbConnection. (5ms).
+2024-08-06 08:49:32.182 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:32.184 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:32.185 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:49:32.187 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:49:32.189 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-06 08:49:32.191 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:49:32.200 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+2024-08-06 08:49:32.204 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:32.206 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:32.213 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:32.216 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:32.219 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:32.220 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 16ms reading results.
+2024-08-06 08:49:32.223 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:32.224 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-08-06 08:49:32.236 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:49:32.240 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:49:32.246 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:49:32.249 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:49:32.250 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:49:32.252 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:49:32.255 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HR_Models.Models.VM.EmployeeSummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:49:32.261 +03:00 [INF] Executed action HR.Controllers.EmployeeController.GetAllEmployee (HR) in 95.1545ms
+2024-08-06 08:49:32.266 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.GetAllEmployee (HR)'
+2024-08-06 08:49:32.269 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:49:32.271 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:32.273 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-08-06 08:49:32.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/api/Employee - 200 1782 application/json; charset=utf-8 192.5824ms
+2024-08-06 08:49:38.199 +03:00 [DBG] Connection id "0HN5LRBT4S4FM" received FIN.
+2024-08-06 08:49:38.201 +03:00 [DBG] Connection id "0HN5LRBT4S4FM" is closed. The last processed stream ID was 15.
+2024-08-06 08:49:38.201 +03:00 [DBG] The connection queue processing loop for 0HN5LRBT4S4FM completed.
+2024-08-06 08:49:38.204 +03:00 [DBG] Connection id "0HN5LRBT4S4FM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 08:49:38.218 +03:00 [DBG] Connection id "0HN5LRBT4S4FM" stopped.
+2024-08-06 08:49:55.892 +03:00 [DBG] Connection id "0HN5LRBT4S4FN" accepted.
+2024-08-06 08:49:55.894 +03:00 [DBG] Connection id "0HN5LRBT4S4FN" started.
+2024-08-06 08:49:55.899 +03:00 [DBG] Connection 0HN5LRBT4S4FN established using the following protocol: "Tls12"
+2024-08-06 08:49:55.953 +03:00 [INF] Request starting HTTP/2 PATCH https://localhost:7138/api/Patch?id=a3fbebc3-b4b8-4f3a-91f1-08dcb5db4bc7 - application/json-patch+json 89
+2024-08-06 08:49:55.959 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Patch'
+2024-08-06 08:49:55.968 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)' with route pattern 'api/Patch' is valid for the request path '/api/Patch'
+2024-08-06 08:49:55.970 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)'
+2024-08-06 08:49:55.972 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-06 08:49:55.974 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)'
+2024-08-06 08:49:55.975 +03:00 [INF] Route matched with {action = "UpdateEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HR_Models.Models.Employee]] UpdateEmployee(System.Guid, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]) on controller HR.Controllers.EmployeeController (HR).
+2024-08-06 08:49:55.978 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-06 08:49:55.980 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-06 08:49:55.984 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-06 08:49:55.987 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 08:49:55.989 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-06 08:49:55.992 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:49:55.993 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeController (HR)
+2024-08-06 08:49:55.995 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-08-06 08:49:55.998 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-08-06 08:49:56.000 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-08-06 08:49:56.002 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-08-06 08:49:56.003 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-08-06 08:49:56.005 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-08-06 08:49:56.007 +03:00 [DBG] Attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]' ...
+2024-08-06 08:49:56.009 +03:00 [DBG] Attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]' using the name '' in request data ...
+2024-08-06 08:49:56.012 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-08-06 08:49:56.016 +03:00 [DBG] Connection id "0HN5LRBT4S4FN", Request id "0HN5LRBT4S4FN:00000001": started reading request body.
+2024-08-06 08:49:56.018 +03:00 [DBG] Connection id "0HN5LRBT4S4FN", Request id "0HN5LRBT4S4FN:00000001": done reading request body.
+2024-08-06 08:49:56.021 +03:00 [DBG] Done attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]'.
+2024-08-06 08:49:56.024 +03:00 [DBG] Done attempting to bind parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]'.
+2024-08-06 08:49:56.026 +03:00 [DBG] Attempting to validate the bound parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]' ...
+2024-08-06 08:49:56.031 +03:00 [DBG] Done attempting to validate the bound parameter 'emp' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[HR_Models.Models.Employee]'.
+2024-08-06 08:49:58.082 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-06 08:49:58.128 +03:00 [DBG] Creating DbConnection.
+2024-08-06 08:49:58.129 +03:00 [DBG] Created DbConnection. (1ms).
+2024-08-06 08:49:58.130 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:58.132 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:58.134 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 08:49:58.135 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-08-06 08:49:58.137 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-06 08:49:58.139 +03:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+WHERE [e].[id] = @__p_0
+2024-08-06 08:49:58.150 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[id], [e].[BirthDate], [e].[CityId], [e].[Father], [e].[Functional_ID], [e].[IsActive], [e].[LastName], [e].[Mather], [e].[Name], [e].[Salary_basis], [e].[UniverCityId], [e].[UniversityDegree], [e].[date_of_employment]
+FROM [employees] AS [e]
+WHERE [e].[id] = @__p_0
+2024-08-06 08:49:58.154 +03:00 [DBG] Context 'HR_Context' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 08:49:58.158 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:58.159 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 5ms reading results.
+2024-08-06 08:49:58.161 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:58.163 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-08-06 08:49:58.265 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-06 08:49:58.269 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-06 08:49:58.271 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-06 08:49:58.272 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-06 08:49:58.274 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-06 08:49:58.275 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-06 08:49:58.277 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[HR_Models.Models.Employee, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-06 08:49:58.287 +03:00 [INF] Executed action HR.Controllers.EmployeeController.UpdateEmployee (HR) in 2295.2456ms
+2024-08-06 08:49:58.290 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeController.UpdateEmployee (HR)'
+2024-08-06 08:49:58.293 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[HR_Models.Models.Employee]'.
+ ---> System.AggregateException: One or more errors occurred. (The value 'SuperAdmin1' is invalid for target location.)
+ ---> Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: The value 'SuperAdmin1' is invalid for target location.
+   at Microsoft.AspNetCore.JsonPatch.Internal.ErrorReporter.<>c.<.cctor>b__1_0(JsonPatchError error)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Replace(Operation operation, Object objectToApplyTo)
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at HR.Repositry.RepositryAllModels`2.UpdateAsync(Guid id, JsonPatchDocument`1 json) in C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\Repositry\RepositryAllModels.cs:line 112
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at lambda_method348(Closure, Object)
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-06 08:49:58.364 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-06 08:49:58.366 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-06 08:49:58.368 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-08-06 08:49:58.371 +03:00 [INF] Request finished HTTP/2 PATCH https://localhost:7138/api/Patch?id=a3fbebc3-b4b8-4f3a-91f1-08dcb5db4bc7 - 500 null text/plain; charset=utf-8 2468.2691ms

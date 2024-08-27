@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|solutionrelative:hr\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr\\repositry\\repositryallmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|solutionrelative:hr\\repositry\\repositryallmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|solutionrelative:hr\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr_models\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|solutionrelative:hr_models\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr\\repositry\\repoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|solutionrelative:hr\\repositry\\repoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr_models\\models\\vm\\employeesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|solutionrelative:hr_models\\models\\vm\\employeesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr_models\\models\\creation\\employeecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|solutionrelative:hr_models\\models\\creation\\employeecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr_models\\models\\employeedepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|solutionrelative:hr_models\\models\\employeedepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr_models\\models\\creation\\employeedepartmentcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|solutionrelative:hr_models\\models\\creation\\employeedepartmentcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr_models\\models\\vm\\employeedepartmentsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E5AF1B-5082-41FE-9E88-460543AAAD28}|HR_Models\\HR_Models.csproj|solutionrelative:hr_models\\models\\vm\\employeedepartmentsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|c:\\users\\nour-alsham\\source\\graduatio-nproject\\add-gender-and-img\\hr\\hr\\migrations\\20240821030249_employee-img.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292C5104-D624-4237-8557-E527AC954CA8}|HR\\HR.csproj|solutionrelative:hr\\migrations\\20240821030249_employee-img.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 211,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositryAllModels.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Repositry\\RepositryAllModels.cs",
+              "RelativeDocumentMoniker": "HR\\Repositry\\RepositryAllModels.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Repositry\\RepositryAllModels.cs",
+              "RelativeToolTip": "HR\\Repositry\\RepositryAllModels.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAArwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:29:32.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "HR\\Controllers\\CityController.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Controllers\\CityController.cs",
+              "RelativeToolTip": "HR\\Controllers\\CityController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAhwEwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T13:11:31.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240821030249_employee-img.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Migrations\\20240821030249_employee-img.cs",
+              "RelativeDocumentMoniker": "HR\\Migrations\\20240821030249_employee-img.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Migrations\\20240821030249_employee-img.cs",
+              "RelativeToolTip": "HR\\Migrations\\20240821030249_employee-img.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:02:49.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepoEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Repositry\\RepoEmployee.cs",
+              "RelativeDocumentMoniker": "HR\\Repositry\\RepoEmployee.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Repositry\\RepoEmployee.cs",
+              "RelativeToolTip": "HR\\Repositry\\RepoEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:54:41.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HR\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HR\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:25:28.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeCreation.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\Creation\\EmployeeCreation.cs",
+              "RelativeDocumentMoniker": "HR_Models\\Models\\Creation\\EmployeeCreation.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\Creation\\EmployeeCreation.cs",
+              "RelativeToolTip": "HR_Models\\Models\\Creation\\EmployeeCreation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:29:43.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeSummary.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\VM\\EmployeeSummary.cs",
+              "RelativeDocumentMoniker": "HR_Models\\Models\\VM\\EmployeeSummary.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\VM\\EmployeeSummary.cs",
+              "RelativeToolTip": "HR_Models\\Models\\VM\\EmployeeSummary.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:28:05.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeDepartmentSummary.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\VM\\EmployeeDepartmentSummary.cs",
+              "RelativeDocumentMoniker": "HR_Models\\Models\\VM\\EmployeeDepartmentSummary.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\VM\\EmployeeDepartmentSummary.cs",
+              "RelativeToolTip": "HR_Models\\Models\\VM\\EmployeeDepartmentSummary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:22:43.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeDepartmentCreation.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\Creation\\EmployeeDepartmentCreation.cs",
+              "RelativeDocumentMoniker": "HR_Models\\Models\\Creation\\EmployeeDepartmentCreation.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\Creation\\EmployeeDepartmentCreation.cs",
+              "RelativeToolTip": "HR_Models\\Models\\Creation\\EmployeeDepartmentCreation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:21:02.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeDepartment.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\EmployeeDepartment.cs",
+              "RelativeDocumentMoniker": "HR_Models\\Models\\EmployeeDepartment.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\EmployeeDepartment.cs",
+              "RelativeToolTip": "HR_Models\\Models\\EmployeeDepartment.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:19:28.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HR_Models\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR_Models\\Models\\Employee.cs",
+              "RelativeToolTip": "HR_Models\\Models\\Employee.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAIAwwDgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:17:42.035Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 328,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

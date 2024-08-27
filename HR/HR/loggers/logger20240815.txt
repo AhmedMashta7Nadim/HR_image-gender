@@ -1,0 +1,223 @@
+2024-08-15 22:28:24.788 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-15 22:28:25.025 +03:00 [DBG] Hosting starting
+2024-08-15 22:28:25.058 +03:00 [INF] User profile is available. Using 'C:\Users\NOUR-ALSHAM\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-15 22:28:25.072 +03:00 [DBG] Reading data from file 'C:\Users\NOUR-ALSHAM\AppData\Local\ASP.NET\DataProtection-Keys\key-138de633-0648-4bc2-ae18-8d318c02d8f1.xml'.
+2024-08-15 22:28:25.093 +03:00 [DBG] Reading data from file 'C:\Users\NOUR-ALSHAM\AppData\Local\ASP.NET\DataProtection-Keys\key-581470d1-0777-4cb2-9d06-4327f023974b.xml'.
+2024-08-15 22:28:25.108 +03:00 [DBG] Found key {138de633-0648-4bc2-ae18-8d318c02d8f1}.
+2024-08-15 22:28:25.119 +03:00 [DBG] Found key {581470d1-0777-4cb2-9d06-4327f023974b}.
+2024-08-15 22:28:25.133 +03:00 [DBG] Considering key {138de633-0648-4bc2-ae18-8d318c02d8f1} with expiration date 2024-10-04 15:27:47Z as default key.
+2024-08-15 22:28:25.148 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-15 22:28:25.153 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-08-15 22:28:25.157 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-15 22:28:25.168 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-08-15 22:28:25.171 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-08-15 22:28:25.175 +03:00 [DBG] Using key {138de633-0648-4bc2-ae18-8d318c02d8f1} as the default key.
+2024-08-15 22:28:25.178 +03:00 [DBG] Key ring with default key {138de633-0648-4bc2-ae18-8d318c02d8f1} was loaded during application startup.
+2024-08-15 22:28:25.478 +03:00 [INF] Now listening on: https://localhost:7138
+2024-08-15 22:28:25.485 +03:00 [INF] Now listening on: http://localhost:5281
+2024-08-15 22:28:25.490 +03:00 [DBG] Loaded hosting startup assembly HR
+2024-08-15 22:28:25.492 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-15 22:28:25.495 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-15 22:28:25.500 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-15 22:28:25.501 +03:00 [INF] Hosting environment: Development
+2024-08-15 22:28:25.504 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\graduatio-nproject\AddToken\HR\HR
+2024-08-15 22:28:25.506 +03:00 [DBG] Hosting started
+2024-08-15 22:28:25.542 +03:00 [DBG] Connection id "0HN5TC1NETG55" accepted.
+2024-08-15 22:28:25.544 +03:00 [DBG] Connection id "0HN5TC1NETG56" accepted.
+2024-08-15 22:28:25.546 +03:00 [DBG] Connection id "0HN5TC1NETG55" started.
+2024-08-15 22:28:25.550 +03:00 [DBG] Connection id "0HN5TC1NETG56" started.
+2024-08-15 22:28:25.581 +03:00 [DBG] Connection id "0HN5TC1NETG56" received FIN.
+2024-08-15 22:28:25.581 +03:00 [DBG] Connection id "0HN5TC1NETG55" received FIN.
+2024-08-15 22:28:25.597 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 22:28:25.598 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 22:28:25.642 +03:00 [DBG] Connection id "0HN5TC1NETG56" stopped.
+2024-08-15 22:28:25.642 +03:00 [DBG] Connection id "0HN5TC1NETG55" stopped.
+2024-08-15 22:28:25.651 +03:00 [DBG] Connection id "0HN5TC1NETG55" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 22:28:25.651 +03:00 [DBG] Connection id "0HN5TC1NETG56" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 22:28:27.079 +03:00 [DBG] Connection id "0HN5TC1NETG57" accepted.
+2024-08-15 22:28:27.802 +03:00 [DBG] Connection id "0HN5TC1NETG58" accepted.
+2024-08-15 22:28:27.824 +03:00 [DBG] Connection id "0HN5TC1NETG57" started.
+2024-08-15 22:28:28.101 +03:00 [DBG] Connection id "0HN5TC1NETG58" started.
+2024-08-15 22:28:28.980 +03:00 [DBG] Connection 0HN5TC1NETG58 established using the following protocol: "Tls12"
+2024-08-15 22:28:28.993 +03:00 [DBG] Connection 0HN5TC1NETG57 established using the following protocol: "Tls12"
+2024-08-15 22:28:29.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - null null
+2024-08-15 22:28:30.350 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-15 22:28:30.459 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-15 22:28:30.463 +03:00 [DBG] Request did not match any endpoints
+2024-08-15 22:28:30.799 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-15 22:28:30.802 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-15 22:28:30.859 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-15 22:28:30.868 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-15 22:28:30.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - 200 null text/html;charset=utf-8 905.0064ms
+2024-08-15 22:28:30.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-15 22:28:30.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - null null
+2024-08-15 22:28:31.090 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - 200 13740 application/javascript; charset=utf-8 140.5577ms
+2024-08-15 22:28:31.384 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - 200 null text/javascript; charset=UTF-8 435.354ms
+2024-08-15 22:28:31.673 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - null null
+2024-08-15 22:28:32.014 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-15 22:28:32.016 +03:00 [DBG] Request did not match any endpoints
+2024-08-15 22:28:32.564 +03:00 [DBG] Connection id "0HN5TC1NETG57" received FIN.
+2024-08-15 22:28:32.692 +03:00 [DBG] Connection id "0HN5TC1NETG57" is closed. The last processed stream ID was 0.
+2024-08-15 22:28:32.693 +03:00 [DBG] The connection queue processing loop for 0HN5TC1NETG57 completed.
+2024-08-15 22:28:32.695 +03:00 [DBG] Connection id "0HN5TC1NETG57" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 22:28:32.701 +03:00 [DBG] Connection id "0HN5TC1NETG57" stopped.
+2024-08-15 22:28:32.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1161.8978ms
+2024-08-15 22:28:37.605 +03:00 [DBG] Connection id "0HN5TC1NETG58" received FIN.
+2024-08-15 22:28:37.629 +03:00 [DBG] Connection id "0HN5TC1NETG58" is closed. The last processed stream ID was 7.
+2024-08-15 22:28:37.629 +03:00 [DBG] The connection queue processing loop for 0HN5TC1NETG58 completed.
+2024-08-15 22:28:37.632 +03:00 [DBG] Connection id "0HN5TC1NETG58" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 22:28:37.645 +03:00 [DBG] Connection id "0HN5TC1NETG58" stopped.
+2024-08-15 22:37:42.906 +03:00 [DBG] Connection id "0HN5TC1NETG59" accepted.
+2024-08-15 22:37:42.925 +03:00 [DBG] Connection id "0HN5TC1NETG59" started.
+2024-08-15 22:37:42.957 +03:00 [DBG] Connection 0HN5TC1NETG59 established using the following protocol: "Tls12"
+2024-08-15 22:37:42.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7138/api/EmployeeDepartment - null null
+2024-08-15 22:37:42.975 +03:00 [DBG] 1 candidate(s) found for the request path '/api/EmployeeDepartment'
+2024-08-15 22:37:42.993 +03:00 [DBG] Endpoint 'HR.Controllers.EmployeeDepartmentController.GetAll (HR)' with route pattern 'api/EmployeeDepartment' is valid for the request path '/api/EmployeeDepartment'
+2024-08-15 22:37:43.000 +03:00 [DBG] Request matched endpoint 'HR.Controllers.EmployeeDepartmentController.GetAll (HR)'
+2024-08-15 22:37:43.006 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-08-15 22:37:43.080 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-08-15 22:37:43.093 +03:00 [INF] Executing endpoint 'HR.Controllers.EmployeeDepartmentController.GetAll (HR)'
+2024-08-15 22:37:43.162 +03:00 [INF] Route matched with {action = "GetAll", controller = "EmployeeDepartment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[HR_Models.Models.VM.EmployeeDepartmentSummary]]] GetAll() on controller HR.Controllers.EmployeeDepartmentController (HR).
+2024-08-15 22:37:43.174 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-15 22:37:43.177 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-15 22:37:43.183 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-15 22:37:43.191 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-15 22:37:43.193 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-15 22:37:43.205 +03:00 [DBG] Executing controller factory for controller HR.Controllers.EmployeeDepartmentController (HR)
+2024-08-15 22:37:44.461 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-15 22:37:44.744 +03:00 [DBG] Executed controller factory for controller HR.Controllers.EmployeeDepartmentController (HR)
+2024-08-15 22:37:47.296 +03:00 [WRN] No store type was specified for the decimal property 'Salary_basis' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-15 22:37:47.301 +03:00 [WRN] No store type was specified for the decimal property 'Total_Balance' on entity type 'Leave_Balances'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-15 22:37:47.305 +03:00 [WRN] No store type was specified for the decimal property 'Price_Penalties' on entity type 'Penalties'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-15 22:37:47.313 +03:00 [WRN] No store type was specified for the decimal property 'Price_Rewards' on entity type 'Rewards'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-15 22:37:47.557 +03:00 [DBG] Entity Framework Core 9.0.0-preview.6.24327.4 initialized 'HR_Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.6.24327.4' with options: None
+2024-08-15 22:37:47.646 +03:00 [DBG] Compiling query expression: 
+'DbSet<EmployeeDepartment>()'
+2024-08-15 22:37:48.285 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<EmployeeDepartment>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: EmployeeDepartment.id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: EmployeeDepartment.CreatedAt (DateTime) Required, 1], [Property: EmployeeDepartment.DepartmentId (Guid) Required FK Index, 2], [Property: EmployeeDepartment.EmployeeId (Guid) Required FK Index, 3], [Property: EmployeeDepartment.EndAt (DateTime?), 4], [Property: EmployeeDepartment.Is_available (bool) Required, 5], [Property: EmployeeDepartment.Is_manager (bool) Required, 6], [Property: EmployeeDepartment.Path_File (string) Required, 7] }
+        SELECT e.id, e.CreatedAt, e.DepartmentId, e.EmployeeId, e.EndAt, e.Is_available, e.Is_manager, e.Path_File
+        FROM EmployeeDepartment AS e) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        <>c__DisplayClass26_0.queryExpression, 
+        RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        EmployeeDepartment entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            EmployeeDepartment instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(EmployeeDepartment);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: EmployeeDepartment.id PK | Resolver: c => c.Dependencies.Model.FindEntityType("HR_Models.Models.EmployeeDepartment").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (EmployeeDepartment)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: EmployeeDepartment | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("HR_Models.Models.EmployeeDepartment")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: EmployeeDepartment | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("HR_Models.Models.EmployeeDepartment")]: 
+                        {
+                            return 
+                            {
+                                EmployeeDepartment instance;
+                                instance = new EmployeeDepartment();
+                                instance.<id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                instance.<DepartmentId>k__BackingField = dataReader.GetGuid(2);
+                                instance.<EmployeeId>k__BackingField = dataReader.GetGuid(3);
+                                instance.<EndAt>k__BackingField = dataReader.IsDBNull(4) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(4);
+                                instance.<Is_available>k__BackingField = dataReader.GetBoolean(5);
+                                instance.<Is_manager>k__BackingField = dataReader.GetBoolean(6);
+                                instance.<Path_File>k__BackingField = dataReader.GetString(7);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: EmployeeDepartment | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("HR_Models.Models.EmployeeDepartment")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(EmployeeDepartment)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: HR.Data.HR_Context, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2024-08-15 22:37:48.383 +03:00 [DBG] Creating DbConnection.
+2024-08-15 22:37:48.449 +03:00 [DBG] Created DbConnection. (67ms).
+2024-08-15 22:37:48.464 +03:00 [DBG] Opening connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-15 22:37:53.133 +03:00 [DBG] Opened connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-15 22:37:53.140 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-15 22:37:53.150 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2024-08-15 22:37:53.157 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (17ms).
+2024-08-15 22:37:53.177 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[CreatedAt], [e].[DepartmentId], [e].[EmployeeId], [e].[EndAt], [e].[Is_available], [e].[Is_manager], [e].[Path_File]
+FROM [EmployeeDepartment] AS [e]
+2024-08-15 22:37:53.259 +03:00 [INF] Executed DbCommand (91ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[id], [e].[CreatedAt], [e].[DepartmentId], [e].[EmployeeId], [e].[EndAt], [e].[Is_available], [e].[Is_manager], [e].[Path_File]
+FROM [EmployeeDepartment] AS [e]
+2024-08-15 22:37:53.292 +03:00 [DBG] Closing data reader to 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-15 22:37:53.304 +03:00 [DBG] A data reader for 'HR_Database' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 32ms reading results.
+2024-08-15 22:37:53.309 +03:00 [DBG] Closing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-15 22:37:53.332 +03:00 [DBG] Closed connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB' (23ms).
+2024-08-15 22:37:53.356 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-08-15 22:37:53.370 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-15 22:37:53.375 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-15 22:37:53.379 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-15 22:37:53.381 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-15 22:37:53.384 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-15 22:37:53.387 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HR_Models.Models.VM.EmployeeDepartmentSummary, HR_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-15 22:37:53.554 +03:00 [INF] Executed action HR.Controllers.EmployeeDepartmentController.GetAll (HR) in 10349.0218ms
+2024-08-15 22:37:53.557 +03:00 [INF] Executed endpoint 'HR.Controllers.EmployeeDepartmentController.GetAll (HR)'
+2024-08-15 22:37:53.570 +03:00 [DBG] 'HR_Context' disposed.
+2024-08-15 22:37:53.591 +03:00 [DBG] Disposing connection to database 'HR_Database' on server '(localdb)\MSSQLLocalDB'.
+2024-08-15 22:37:53.594 +03:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2024-08-15 22:37:53.599 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7138/api/EmployeeDepartment - 200 2 application/json; charset=utf-8 10635.8833ms
+2024-08-15 22:37:58.387 +03:00 [DBG] Connection id "0HN5TC1NETG59" received FIN.
+2024-08-15 22:37:58.389 +03:00 [DBG] Connection id "0HN5TC1NETG59" is closed. The last processed stream ID was 1.
+2024-08-15 22:37:58.389 +03:00 [DBG] The connection queue processing loop for 0HN5TC1NETG59 completed.
+2024-08-15 22:37:58.391 +03:00 [DBG] Connection id "0HN5TC1NETG59" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 22:37:58.402 +03:00 [DBG] Connection id "0HN5TC1NETG59" stopped.

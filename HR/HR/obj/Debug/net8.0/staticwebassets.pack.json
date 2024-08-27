@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\wwwroot\\uploads\\Penalties\\Screenshot 2024-05-05 130807.png",
+      "PackagePath": "staticwebassets\\uploads\\Penalties\\Screenshot 2024-05-05 130807.png"
+    },
+    {
+      "Id": "C:\\Users\\NOUR-ALSHAM\\source\\graduatio-nproject\\Add-gender-and-img\\HR\\HR\\wwwroot\\uploads\\Penalties\\q111111222.png",
+      "PackagePath": "staticwebassets\\uploads\\Penalties\\q111111222.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HR.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HR.props",
+      "PackagePath": "build\\HR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HR.props",
+      "PackagePath": "buildMultiTargeting\\HR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HR.props",
+      "PackagePath": "buildTransitive\\HR.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
